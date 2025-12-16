@@ -48,9 +48,9 @@
 
 ## Database
 - **Amazon Aurora**: Managed relational database (MySQL/PostgreSQL compatible).
-- **Amazon Aurora Serverless**: On-demand Aurora.
+- **Amazon Aurora Serverless**: Automatic Aurora.
 - **Amazon DocumentDB**: MongoDB-compatible document DB.
-- **Amazon DynamoDB**: NoSQL key-value DB.
+- **Amazon DynamoDB**: NoSQL key-value DB with persistance.
 - **Amazon ElastiCache**: In-memory caching (Redis/Memcached).
 - **Amazon Keyspaces**: Managed Apache Cassandra.
 - **Amazon Neptune**: Graph database.
@@ -166,3 +166,4 @@
 ## Comparisons
 - [Messaging Services Comparison (SQS vs MQ vs MSK)](services/messaging_comparison.md)
 - [EKS Options Comparison (EKS vs Anywhere vs Distro)](services/eks_comparison.md)
+- [Database Services Deep Comparison](services/database_comparison.md)
