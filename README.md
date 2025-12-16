@@ -128,8 +128,8 @@
 - **NAT Gateway**: Outbound internet for private subnets.
 
 ## Security, Identity, and Compliance
-- **AWS Artifact**: Compliance reports.
-- **AWS Audit Manager**: Audit assessments.
+- **AWS Artifact**: Central doc and legal agreement service.
+- **AWS Audit Manager**: Service continuously audit AWS.
 - **AWS Certificate Manager (ACM)**: SSL/TLS certificate management.
 - **AWS CloudHSM**: Hardware Security Module.
 - **Amazon Cognito**: User identity and authentication.
