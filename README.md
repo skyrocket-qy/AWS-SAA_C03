@@ -4,7 +4,7 @@
 - **Amazon Athena**: Serverless interactive query service.
 - **AWS Data Exchange**: Find, subscribe to, and use third-party data.
 - **AWS Data Pipeline**: Web service for data movement.
-- **Amazon EMR**: Cloud big data platform.
+- **Amazon EMR (Elastic MapReduce)**: Cloud big data platform.
 - **AWS Glue**: Managed ETL service.
 - **Amazon Kinesis**: Real-time data streaming.
 - **AWS Lake Formation**: Build and manage data lakes.
@@ -18,8 +18,8 @@
 - **AWS AppSync**: Managed GraphQL API.
 - **Amazon EventBridge (Amazon CloudWatch Events)**: Serverless event bus.
 - **Amazon MQ**: Managed message broker.
-- **Amazon Simple Notification Service (Amazon SNS)**: Pub/sub messaging.
-- **Amazon Simple Queue Service (Amazon SQS)**: Message queuing.
+- **Amazon SNS (Simple Notification Service)**: Pub/sub messaging.
+- **Amazon SQS (Simple Queue Service)**: Message queuing.
 - **AWS Step Functions**: Serverless orchestration.
 
 ## AWS Cost Management
@@ -30,7 +30,7 @@
 
 ## Compute
 - **AWS Batch**: Batch computing.
-- **Amazon EC2**: Virtual servers (instances).
+- **Amazon EC2 (Elastic Compute Cloud)**: Virtual servers (instances).
 - **Amazon EC2 Auto Scaling**: Automatic capacity adjustment.
 - **AWS Elastic Beanstalk**: PaaS for web apps.
 - **AWS Outposts**: On-premises AWS infrastructure.
@@ -39,10 +39,10 @@
 - **AWS Wavelength**: Ultra-low latency edge computing.
 
 ## Containers
-- **Amazon Elastic Container Registry (Amazon ECR)**: Docker container registry.
-- **Amazon Elastic Container Service (Amazon ECS)**: Container orchestration.
+- **Amazon ECR (Elastic Container Registry)**: Docker container registry.
+- **Amazon ECS (Elastic Container Service)**: Container orchestration.
 - **Amazon ECS Anywhere**: Run ECS on-premises.
-- **Amazon Elastic Kubernetes Service (Amazon EKS)**: Managed Kubernetes.
+- **Amazon EKS (Elastic Kubernetes Service)**: Managed Kubernetes.
 - **Amazon EKS Anywhere**: Run Kubernetes on-premises.
 - **Amazon EKS Distro**: Kubernetes distribution.
 
@@ -54,8 +54,8 @@
 - **Amazon ElastiCache**: In-memory caching (Redis/Memcached).
 - **Amazon Keyspaces**: Managed Apache Cassandra.
 - **Amazon Neptune**: Graph database.
-- **Amazon Quantum Ledger Database (Amazon QLDB)**: Immutable ledger database.
-- **Amazon RDS**: Managed relational database.
+- **Amazon QLDB (Quantum Ledger Database)**: Immutable ledger database.
+- **Amazon RDS (Relational Database Service)**: Managed relational database.
 - **Amazon Timestream**: Time series database.
 
 ## Developer Tools
@@ -123,7 +123,7 @@
 - **AWS PrivateLink**: Private access to services.
 - **Amazon Route 53**: DNS web service.
 - **AWS Transit Gateway**: Network hub.
-- **Amazon VPC**: Virtual private cloud.
+- **Amazon VPC (Virtual Private Cloud)**: Virtual private cloud.
 - **AWS VPN**: Secure network connection.
 - **NAT Gateway**: Outbound internet for private subnets.
 
@@ -137,9 +137,9 @@
 - **AWS Directory Service**: Managed Active Directory.
 - **AWS Firewall Manager**: Central firewall management.
 - **Amazon GuardDuty**: Threat detection.
-- **AWS Identity and Access Management (IAM)**: Identity and access control.
+- **AWS IAM (Identity and Access Management)**: Identity and access control.
 - **Amazon Inspector**: Vulnerability assessment.
-- **AWS Key Management Service (AWS KMS)**: Encryption key management.
+- **AWS KMS (Key Management Service)**: Encryption key management.
 - **Amazon Macie**: Sensitive data discovery.
 - **AWS Network Firewall**: VPC network protection.
 - **AWS Resource Access Manager (AWS RAM)**: Resource sharing.
@@ -147,7 +147,7 @@
 - **AWS Security Hub**: Security posture management.
 - **AWS Shield**: DDoS protection.
 - **AWS Single Sign-On (AWS IAM Identity Center)**: Centralized access management.
-- **AWS WAF**: Web Application Firewall.
+- **AWS WAF (Web Application Firewall)**: Web Application Firewall.
 
 ## Serverless
 - **AWS AppSync**: (See Application Integration).
