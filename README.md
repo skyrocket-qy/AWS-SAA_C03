@@ -95,7 +95,7 @@
 - **AWS Management Console**: Web-based management interface.
 - **AWS Organizations**: Central account management.
 - **AWS Personal Health Dashboard**: Service health alerts.
-- **AWS Proton**: Container/serverless delivery.
+- **AWS Proton**: CI/CD Orchestrator and Deployment Governance service.
 - **AWS Service Catalog**: IT service catalog.
 - **AWS Systems Manager**: Hybrid cloud management.
 - **AWS Trusted Advisor**: Best practice recommendations.
