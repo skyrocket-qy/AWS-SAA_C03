@@ -120,9 +120,9 @@
 - **AWS Direct Connect**: Dedicated network connection.
 - **Elastic Load Balancing (ELB)**
 - **AWS Global Accelerator**: [Network performance optimization](services/aws_global_accelerator.md).
-- **AWS PrivateLink**: Private access to services.
+- **AWS PrivateLink**: Private traffic within the secure AWS network backbon.
 - **Amazon Route 53**: DNS web service.
-- **AWS Transit Gateway**: Network hub.
+- **AWS Transit Gateway**: [Network hub](services/aws_transit_gateway.md).
 - **Amazon VPC (Virtual Private Cloud)**: Virtual private cloud.
 - **AWS VPN**: Secure network connection.
 - **NAT Gateway**: Outbound internet for private subnets.
