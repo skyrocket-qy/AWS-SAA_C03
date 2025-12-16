@@ -118,8 +118,8 @@
 ## Networking and Content Delivery
 - **Amazon CloudFront**: Content Delivery Network (CDN).
 - **AWS Direct Connect**: Dedicated network connection.
-- **Elastic Load Balancing (ELB)**: Load balancing.
-- **AWS Global Accelerator**: Network performance optimization.
+- **Elastic Load Balancing (ELB)**
+- **AWS Global Accelerator**: [Network performance optimization](services/aws_global_accelerator.md).
 - **AWS PrivateLink**: Private access to services.
 - **Amazon Route 53**: DNS web service.
 - **AWS Transit Gateway**: Network hub.
