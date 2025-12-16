@@ -1,167 +1,167 @@
 # AWS-SAA_C03
 
 ## Analytics
-- **Amazon Athena**: Serverless interactive query service.
-- **AWS Data Exchange**: Find, subscribe to, and use third-party data.
-- **AWS Data Pipeline**: Web service for data movement.
-- **Amazon EMR (Elastic MapReduce)**: Cloud big data platform.
-- **AWS Glue**: Managed ETL service.
-- **Amazon Kinesis**: Real-time data streaming.
-- **AWS Lake Formation**: Build and manage data lakes.
-- **Amazon Managed Streaming for Apache Kafka (Amazon MSK)**: Managed Apache Kafka.
-- **Amazon OpenSearch Service (Amazon Elasticsearch Service)**: Managed OpenSearch/Elasticsearch.
-- **Amazon QuickSight**: BI and visualization.
-- **Amazon Redshift**: Data warehouse.
+- **Amazon Athena**: Serverless interactive query service for S3 data.
+- **AWS Data Exchange**: Discover, subscribe to, and use third-party data.
+- **AWS Data Pipeline**: Orchestration service for data movement and transformation workflows.
+- **Amazon EMR (Elastic MapReduce)**: Managed big data processing using open-source tools.
+- **AWS Glue**: Serverless data integration for ETL workloads.
+- **Amazon Kinesis**: Real-time streaming data ingestion and processing.
+- **AWS Lake Formation**: Securely build, manage, and scale data lakes.
+- **Amazon Managed Streaming for Apache Kafka (Amazon MSK)**: Fully managed, highly available Apache Kafka clusters.
+- **Amazon OpenSearch Service (Amazon Elasticsearch Service)**: Deploy, operate, and scale OpenSearch/Elasticsearch clusters.
+- **Amazon QuickSight**: Cloud-native business intelligence service for interactive dashboards.
+- **Amazon Redshift**: Fast, fully managed, petabyte-scale cloud data warehouse.
 
 ## Application Integration
-- **Amazon AppFlow**: SaaS integration service.
-- **AWS AppSync**: Managed GraphQL API.
-- **Amazon EventBridge (Amazon CloudWatch Events)**: Serverless event bus.
-- **Amazon MQ**: Managed message broker.
-- **Amazon SNS (Simple Notification Service)**: Pub/sub messaging.
-- **Amazon SQS (Simple Queue Service)**: Message queuing.
-- **AWS Step Functions**: Serverless workflow(state machine).
+- **Amazon AppFlow**: Integrate SaaS applications and AWS services seamlessly.
+- **AWS AppSync**: Build scalable, real-time applications with managed GraphQL APIs.
+- **Amazon EventBridge (Amazon CloudWatch Events)**: Serverless event bus for routing events between services.
+- **Amazon MQ**: Managed message broker for Apache ActiveMQ and RabbitMQ.
+- **Amazon SNS (Simple Notification Service)**: Pub/sub messaging for microservices, distributed systems, and serverless applications.
+- **Amazon SQS (Simple Queue Service)**: Fully managed message queuing for distributed systems.
+- **AWS Step Functions**: Coordinate multiple AWS services into serverless workflows.
 
 ## AWS Cost Management
-- **AWS Budgets**: Cost tracking and alerts.
-- **AWS Cost and Usage Report**: Detailed cost data.
-- **AWS Cost Explorer**: Visualize cost patterns.
-- **Savings Plans**: Discount for committed usage.
+- **AWS Budgets**: Set custom cost and usage alerts.
+- **AWS Cost and Usage Report**: Comprehensive dataset of AWS costs and usage.
+- **AWS Cost Explorer**: Visualize, understand, and manage AWS costs and usage.
+- **Savings Plans**: Flexible pricing model offering significant savings on usage.
 
 ## Compute
-- **AWS Batch**: Batch computing.
-- **Amazon EC2 (Elastic Compute Cloud)**: Virtual servers (instances).
-- **Amazon EC2 Auto Scaling**: Automatic capacity adjustment.
-- **AWS Elastic Beanstalk**: PaaS for web apps.
-- **AWS Outposts**: On-premises AWS infrastructure.
-- **AWS Serverless Application Repository**: Deploy serverless apps.
-- **VMware Cloud on AWS**: vSphere workloads.
-- **AWS Wavelength**: Ultra-low latency edge computing.
+- **AWS Batch**: Run batch computing workloads effectively.
+- **Amazon EC2 (Elastic Compute Cloud)**: Resizable compute capacity as virtual servers.
+- **Amazon EC2 Auto Scaling**: Automatically adjusts EC2 capacity to maintain performance.
+- **AWS Elastic Beanstalk**: Easy deployment and scaling of web applications.
+- **AWS Outposts**: Extend AWS infrastructure, services, and operations on-premises.
+- **AWS Serverless Application Repository**: Discover, deploy, and publish serverless applications.
+- **VMware Cloud on AWS**: Integrated hybrid cloud for VMware vSphere workloads.
+- **AWS Wavelength**: Deliver ultra-low latency applications to mobile devices.
 
 ## Containers
-- **Amazon ECR (Elastic Container Registry)**: Docker container registry.
-- **Amazon ECS (Elastic Container Service)**: Container orchestration.
-- **Amazon ECS Anywhere**: Run ECS on-premises.
-- **Amazon EKS (Elastic Kubernetes Service)**: Managed Kubernetes.
-- **Amazon EKS Anywhere**: Run Kubernetes on-premises.
-- **Amazon EKS Distro**: Kubernetes distribution.
+- **Amazon ECR (Elastic Container Registry)**: Fully managed Docker container registry for easy storage.
+- **Amazon ECS (Elastic Container Service)**: Highly scalable, fast container management service.
+- **Amazon ECS Anywhere**: Run Amazon ECS workloads on your infrastructure.
+- **Amazon EKS (Elastic Kubernetes Service)**: Fully managed Kubernetes service for easy deployment.
+- **Amazon EKS Anywhere**: Create and operate Kubernetes clusters on-premises.
+- **Amazon EKS Distro**: Kubernetes distribution used by Amazon EKS to run anywhere.
 
 ## Database
-- **Amazon Aurora**: Managed relational database (MySQL/PostgreSQL compatible).
-- **Amazon Aurora Serverless**: Automatic Aurora.
-- **Amazon DocumentDB**: MongoDB-compatible document DB.
-- **Amazon DynamoDB**: NoSQL key-value DB with persistance.
-- **Amazon ElastiCache**: In-memory caching (Redis/Memcached).
-- **Amazon Keyspaces**: Managed Apache Cassandra.
-- **Amazon Neptune**: Graph database.
-- **Amazon QLDB (Quantum Ledger Database)**: Immutable ledger database.
-- **Amazon RDS (Relational Database Service)**: Managed relational database.
-- **Amazon Timestream**: Time series database.
+- **Amazon Aurora**: High-performance, scalable relational database compatible with MySQL/PostgreSQL.
+- **Amazon Aurora Serverless**: On-demand, auto-scaling configuration for Amazon Aurora.
+- **Amazon DocumentDB**: Fully managed document database compatible with MongoDB.
+- **Amazon DynamoDB**: Fast, flexible NoSQL database for any scale.
+- **Amazon ElastiCache**: In-memory caching service for Redis and Memcached.
+- **Amazon Keyspaces**: Serverless, scalable, and highly available Apache Cassandra-compatible database service.
+- **Amazon Neptune**: Fast, reliable graph database for interconnected datasets.
+- **Amazon QLDB (Quantum Ledger Database)**: Fully managed, immutable, and cryptographically verifiable ledger database.
+- **Amazon RDS (Relational Database Service)**: Set up, operate, and scale a relational database.
+- **Amazon Timestream**: Fast, scalable, and serverless time series database.
 
 ## Developer Tools
-- **AWS X-Ray**: Application debugging/tracing.
+- **AWS X-Ray**: Debug and analyze production, distributed applications for performance insights.
 
 ## Front-End Web and Mobile
-- **AWS Amplify**: Build and deploy web/mobile apps.
-- **Amazon API Gateway**: Create and manage APIs.
-- **AWS Device Farm**: App testing on real devices.
-- **Amazon Pinpoint**: Marketing communications.
+- **AWS Amplify**: Rapidly build, deploy, and host scalable web/mobile apps.
+- **Amazon API Gateway**: Create, publish, maintain, monitor, and secure APIs.
+- **AWS Device Farm**: Test Android, iOS, and web apps on real devices.
+- **Amazon Pinpoint**: Customer engagement service for targeted marketing communications.
 
 ## Machine Learning
-- **Amazon Comprehend**: NLP text analysis.
-- **Amazon Forecast**: Time-series forecasting.
-- **Amazon Fraud Detector**: Fraud detection.
-- **Amazon Kendra**: Intelligent search.
-- **Amazon Lex**: Conversational AI (chatbots).
-- **Amazon Polly**: Text-to-speech.
-- **Amazon Rekognition**: Image and video analysis.
-- **Amazon SageMaker**: Build and train ML models.
-- **Amazon Textract**: Extract text/data from documents.
-- **Amazon Transcribe**: Speech-to-text.
-- **Amazon Translate**: Neural machine translation.
+- **Amazon Comprehend**: Discover insights and relationships in text using NLP.
+- **Amazon Forecast**: Highly accurate time-series forecasts using machine learning.
+- **Amazon Fraud Detector**: Identify potentially fraudulent online activities using machine learning.
+- **Amazon Kendra**: Enterprise search service powered by machine learning.
+- **Amazon Lex**: Build conversational interfaces into applications using voice and text.
+- **Amazon Polly**: Turn text into lifelike speech.
+- **Amazon Rekognition**: Image and video analysis for object and face detection.
+- **Amazon SageMaker**: Build, train, and deploy machine learning models quickly.
+- **Amazon Textract**: Automatically extract text and data from scanned documents.
+- **Amazon Transcribe**: Automatically convert speech to text using machine learning.
+- **Amazon Translate**: Neural machine translation service for fast, high-quality translation.
 
 ## Management and Governance
-- **AWS Auto Scaling**: Application scaling.
-- **AWS CloudFormation**: Infrastructure as Code (IaC).
-- **AWS CloudTrail**: User activity auditing.
-- **Amazon CloudWatch**: Monitoring and observability.
-- **AWS Command Line Interface (AWS CLI)**: Command line management.
-- **AWS Compute Optimizer**: Use ML to resource optimization recommendations.
-- **AWS Config**: Configuration Historian and Compliance Enforcer.
-- **AWS Control Tower**: Multi-account governance.
-- **AWS License Manager**: Software license management.
-- **Amazon Managed Grafana**: specific data visualization.
-- **Amazon Managed Service for Prometheus**: Container monitoring.
-- **AWS Management Console**: Web-based management interface.
-- **AWS Organizations**: Central account management.
-- **AWS Personal Health Dashboard**: Service health alerts.
-- **AWS Proton**: CI/CD Orchestrator and Deployment Governance service.
-- **AWS Service Catalog**: IT service catalog.
-- **AWS Systems Manager**: Hybrid cloud management.
-- **AWS Trusted Advisor**: Best practice recommendations.
-- **AWS Well-Architected Tool**: Architecture review.
+- **AWS Auto Scaling**: Automatically adjusts application capacity to maintain performance and costs.
+- **AWS CloudFormation**: Provision and manage AWS and third-party resources as code.
+- **AWS CloudTrail**: Governance, compliance, and auditing for your AWS account.
+- **Amazon CloudWatch**: Monitor AWS resources and applications running on AWS.
+- **AWS Command Line Interface (AWS CLI)**: Manage AWS services from your command line.
+- **AWS Compute Optimizer**: Recommends optimal AWS resources using machine learning.
+- **AWS Config**: Assess, audit, and evaluate the configurations of your AWS resources.
+- **AWS Control Tower**: Set up and govern a secure, multi-account AWS environment.
+- **AWS License Manager**: Manage software licenses from vendors like Microsoft and Oracle.
+- **Amazon Managed Grafana**: Fully managed service for open-source Grafana.
+- **Amazon Managed Service for Prometheus**: Monitor containerized applications at scale.
+- **AWS Management Console**: Web-based interface for managing all AWS services.
+- **AWS Organizations**: Centrally manage and govern your environment as you grow.
+- **AWS Personal Health Dashboard**: Personalized view of AWS service health and alerts.
+- **AWS Proton**: Fully managed service for automated deployments for container and serverless.
+- **AWS Service Catalog**: Create and manage catalogs of IT services approved for use.
+- **AWS Systems Manager**: Gain operational insights and automate management across AWS resources.
+- **AWS Trusted Advisor**: Optimize performance, security, and cost of your AWS environment.
+- **AWS Well-Architected Tool**: Review and improve your architectures against best practices.
 
 ## Media Services
-- **Amazon Elastic Transcoder**: Media transcoding.
-- **Amazon Kinesis Video Streams**: Video stream capture.
+- **Amazon Elastic Transcoder**: Convert media files into formats for playback on devices.
+- **Amazon Kinesis Video Streams**: Securely ingest, store, and process video streams for analytics.
 
 ## Migration and Transfer
-- **AWS Application Discovery Service**: On-premise discovery.
-- **AWS Application Migration Service**: Lift-and-shift migration.
-- **AWS Database Migration Service (AWS DMS)**: Database migration.
-- **AWS DataSync**: Data transfer service.
-- **AWS Migration Hub**: Migration tracking.
-- **AWS Server Migration Service (AWS SMS)**: Server migration.
-- **AWS Snow Family**: Physical data transport devices.
-- **AWS Transfer Family**: SFTP/FTPS/FTP transfer.
+- **AWS Application Discovery Service**: Discover on-premises application components for migration planning.
+- **AWS Application Migration Service**: Automated lift-and-shift migration to AWS.
+- **AWS Database Migration Service (AWS DMS)**: Migrate databases to AWS quickly and securely.
+- **AWS DataSync**: Online data transfer service for moving large amounts of data.
+- **AWS Migration Hub**: Track progress of application migrations to AWS.
+- **AWS Server Migration Service (AWS SMS)**: Agentless server migration to AWS.
+- **AWS Snow Family**: Physical devices to transfer large amounts of data.
+- **AWS Transfer Family**: Fully managed support for SFTP, FTPS, and FTP.
 
 ## Networking and Content Delivery
-- **Amazon CloudFront**: Content Delivery Network (CDN).
-- **AWS Direct Connect**: Dedicated network connection.
-- **Elastic Load Balancing (ELB)**
-- **AWS Global Accelerator**: [Network performance optimization](services/aws_global_accelerator.md).
-- **AWS PrivateLink**: Private traffic within the secure AWS network backbon.
-- **Amazon Route 53**: DNS web service.
-- **AWS Transit Gateway**: [Network hub](services/aws_transit_gateway.md).
-- **Amazon VPC (Virtual Private Cloud)**: Virtual private cloud.
-- **AWS VPN**: Secure network connection.
-- **NAT Gateway**: Outbound internet for private subnets.
+- **Amazon CloudFront**: Fast, secure content delivery network (CDN).
+- **AWS Direct Connect**: Establish dedicated private network connection between your premises and AWS.
+- **Elastic Load Balancing (ELB)**: Distributes incoming application traffic across multiple targets.
+- **AWS Global Accelerator**: [Network performance optimization](services/aws_global_accelerator.md) for global applications.
+- **AWS PrivateLink**: Private connectivity between VPCs, services, and on-premises applications.
+- **Amazon Route 53**: Highly available and scalable cloud DNS web service.
+- **AWS Transit Gateway**: [Network hub](services/aws_transit_gateway.md) to connect VPCs and on-premises networks.
+- **Amazon VPC (Virtual Private Cloud)**: Isolate your resources in a logically isolated section.
+- **AWS VPN**: Establish secure and private encrypted connections to your AWS network.
+- **NAT Gateway**: Enables instances in a private subnet to connect to the internet.
 
 ## Security, Identity, and Compliance
-- **AWS Artifact**: Central doc and legal agreement service.
-- **AWS Audit Manager**: Service continuously audit AWS.
-- **AWS Certificate Manager (ACM)**: SSL/TLS certificate management.
-- **AWS CloudHSM**: Hardware Security Module.
-- **Amazon Cognito**: User identity and authentication.
-- **Amazon Detective**: Security investigation.
-- **AWS Directory Service**: Managed Active Directory.
-- **AWS Firewall Manager**: Central firewall management.
-- **Amazon GuardDuty**: Threat detection.
-- **AWS IAM (Identity and Access Management)**: Identity and access control.
-- **Amazon Inspector**: Vulnerability assessment.
-- **AWS KMS (Key Management Service)**: Encryption key management.
-- **Amazon Macie**: Sensitive data discovery.
-- **AWS Network Firewall**: VPC network protection.
-- **AWS Resource Access Manager (AWS RAM)**: Resource sharing.
-- **AWS Secrets Manager**: Secret management.
-- **AWS Security Hub**: Security posture management.
-- **AWS Shield**: DDoS protection.
-- **AWS Single Sign-On (AWS IAM Identity Center)**: Centralized access management.
-- **AWS WAF (Web Application Firewall)**: Web Application Firewall.
+- **AWS Artifact**: Central resource for compliance-related information and agreements.
+- **AWS Audit Manager**: Continuously audit your AWS usage to simplify compliance.
+- **AWS Certificate Manager (ACM)**: Provision, manage, and deploy SSL/TLS certificates.
+- **AWS CloudHSM**: Hardware Security Module for cryptographic operations and key storage.
+- **Amazon Cognito**: Add user sign-up, sign-in, and access control to apps.
+- **Amazon Detective**: Analyze and visualize security data to investigate findings.
+- **AWS Directory Service**: Host and manage Microsoft Active Directory on AWS.
+- **AWS Firewall Manager**: Centrally configure and manage firewall rules across accounts.
+- **Amazon GuardDuty**: Intelligent threat detection to protect your AWS accounts.
+- **AWS IAM (Identity and Access Management)**: Securely manage access to AWS services and resources.
+- **Amazon Inspector**: Automated security assessment service for EC2 instances and containers.
+- **AWS KMS (Key Management Service)**: Create and control encryption keys for data security.
+- **Amazon Macie**: Discover and protect sensitive data in AWS.
+- **AWS Network Firewall**: Network firewall service for your VPCs.
+- **AWS Resource Access Manager (AWS RAM)**: Share AWS resources with any AWS account or within your organization.
+- **AWS Secrets Manager**: Securely store and rotate database credentials, API keys, and other secrets.
+- **AWS Security Hub**: Centralized view of security alerts and compliance status.
+- **AWS Shield**: Managed Distributed Denial of Service (DDoS) protection service.
+- **AWS Single Sign-On (AWS IAM Identity Center)**: Centralized access to multiple AWS accounts and applications.
+- **AWS WAF (Web Application Firewall)**: Protect web applications from common web exploits.
 
 ## Serverless
 - **AWS AppSync**: (See Application Integration).
-- **AWS Fargate**: Serverless for containers.
-- **AWS Lambda**: Run code without servers.
+- **AWS Fargate**: Serverless compute engine for containers without managing servers.
+- **AWS Lambda**: Run your code without provisioning or managing servers.
 
 ## Storage
-- **AWS Backup**: Centralized backup.
-- **Amazon Elastic Block Store (Amazon EBS)**: Block storage for EC2.
-- **Amazon Elastic File System (Amazon EFS)**: Managed file system (NFS).
-- **Amazon FSx**: Managed third-party file systems.
-- **Amazon S3**: Scalable object storage.
-- **Amazon S3 Glacier**: Archive storage.
-- **AWS Storage Gateway**: Hybrid cloud storage.
+- **AWS Backup**: Centralized backup service across AWS services.
+- **Amazon Elastic Block Store (Amazon EBS)**: High-performance block storage for Amazon EC2 instances.
+- **Amazon Elastic File System (Amazon EFS)**: Scalable, elastic file storage for EC2 and on-premises.
+- **Amazon FSx**: Fully managed third-party file systems on AWS.
+- **Amazon S3**: Scalable object storage for internet storage needs.
+- **Amazon S3 Glacier**: Secure, durable, and extremely low-cost storage for archiving.
+- **AWS Storage Gateway**: Hybrid cloud storage integrating on-premises IT with AWS.
 
 ## Comparisons
 - [Messaging Services Comparison (SQS vs MQ vs MSK)](services/messaging_comparison.md)
