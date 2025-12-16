@@ -86,8 +86,8 @@
 - **AWS CloudTrail**: User activity auditing.
 - **Amazon CloudWatch**: Monitoring and observability.
 - **AWS Command Line Interface (AWS CLI)**: Command line management.
-- **AWS Compute Optimizer**: Resource optimization recommendations.
-- **AWS Config**: Resource inventory and compliance.
+- **AWS Compute Optimizer**: Use ML to resource optimization recommendations.
+- **AWS Config**: Configuration Historian and Compliance Enforcer.
 - **AWS Control Tower**: Multi-account governance.
 - **AWS License Manager**: Software license management.
 - **Amazon Managed Grafana**: specific data visualization.
