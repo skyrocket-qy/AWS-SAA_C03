@@ -20,7 +20,7 @@
 - **Amazon MQ**: Managed message broker.
 - **Amazon SNS (Simple Notification Service)**: Pub/sub messaging.
 - **Amazon SQS (Simple Queue Service)**: Message queuing.
-- **AWS Step Functions**: Serverless orchestration.
+- **AWS Step Functions**: Serverless workflow(state machine).
 
 ## AWS Cost Management
 - **AWS Budgets**: Cost tracking and alerts.
@@ -162,3 +162,7 @@
 - **Amazon S3**: Scalable object storage.
 - **Amazon S3 Glacier**: Archive storage.
 - **AWS Storage Gateway**: Hybrid cloud storage.
+
+## Comparisons
+- [Messaging Services Comparison (SQS vs MQ vs MSK)](services/messaging_comparison.md)
+- [EKS Options Comparison (EKS vs Anywhere vs Distro)](services/eks_comparison.md)
