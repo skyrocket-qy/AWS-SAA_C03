@@ -10,13 +10,13 @@ A subnet is a range of IP addresses in your VPC. You can launch AWS resources in
 
 In each subnet CIDR block, the first four IP addresses and the last IP address are reserved for use by AWS. These cannot be assigned to an instance.
 
-For example, in a subnet with CIDR block `10.0.0.0/24`, the following five IP addresses are reserved:
+For example, in a subnet with CIDR block `10.0.0.0/25`, the following five IP addresses are reserved:
 
 *   **10.0.0.0**: Network address.
 *   **10.0.0.1**: Reserved by AWS for the VPC router.
 *   **10.0.0.2**: Reserved by AWS for mapping to Amazon-provided DNS.
 *   **10.0.0.3**: Reserved by AWS for future use.
-*   **10.0.0.255**: Network broadcast address. AWS does not support broadcast in a VPC, therefore the address is reserved.
+*   **10.0.0.127**: Network broadcast address. AWS does not support broadcast in a VPC, therefore the address is reserved.
 
 ## Route Tables (Subnet Routing)
 
