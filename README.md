@@ -134,6 +134,7 @@
 - **AWS VPC Endpoints**: [Connect](services/aws_vpc_endpoints.md) supported AWS services without internet.
 - **Shared VPC**: [Share subnets](services/aws_vpc_sharing.md) with other accounts in your organization.
 - **VPC Flow Logs**: [Capture IP traffic](services/aws_vpc_flow_logs.md) information for network interfaces.
+- **Virtual Private Gateway (VGW)**: [VPN concentrator](services/aws_virtual_private_gateway.md) on the AWS side of a Site-to-Site VPN.
 
 ## Security, Identity, and Compliance
 - **AWS Artifact**: Central resource for compliance-related information and agreements.
