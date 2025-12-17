@@ -63,6 +63,7 @@
 
 ## Front-End Web and Mobile
 - **AWS Amplify**: Rapidly build, deploy, and host scalable web/mobile apps.
+- **Amazon CloudFront**: [Content Delivery Network (CDN)](services/aws_cloudfront.md) using global edge locations.
 - **Amazon API Gateway**: Create, publish, maintain, monitor, and secure APIs.
 - **AWS Device Farm**: Test Android, iOS, and web apps on real devices.
 - **Amazon Pinpoint**: Customer engagement service for targeted marketing communications.
@@ -110,15 +111,15 @@
 - **AWS Application Migration Service**: Automated lift-and-shift migration to AWS.
 - **AWS Database Migration Service (AWS DMS)**: Migrate databases to AWS quickly and securely.
 - **AWS DataSync**: Online data transfer service for moving large amounts of data.
-- **AWS Migration Hub**: Track progress of application migrations to AWS.
+- **AWS Migration Hub**: Track progress of migrations across AWS solutions.
 - **AWS Server Migration Service (AWS SMS)**: Agentless server migration to AWS.
-- **AWS Snow Family**: Physical devices to transfer large amounts of data.
+- **AWS Snow Family**: [Offline data migration](services/aws_snow_family.md) devices (Snowcone, Snowball, Snowmobile) for edge and disconnected environments.
 - **AWS Transfer Family**: Fully managed support for SFTP, FTPS, and FTP.
 
 ## Networking and Content Delivery
 - **Elastic Network Interface (ENI)**: [Virtual network card](services/aws_eni.md) for your instances.
 - **Egress-only Internet Gateway**: [IPv6 outbound access](services/aws_egress_only_internet_gateway.md) for private subnets.
-- **Amazon CloudFront**: Fast, secure content delivery network (CDN).
+- **Amazon CloudFront**: [Fast, secure content delivery network (CDN)](services/aws_cloudfront.md).
 - **AWS Direct Connect**: Establish dedicated private network connection between your premises and AWS.
 - **Elastic Load Balancing (ELB)**: Distributes incoming application traffic across multiple targets.
 - **AWS Global Accelerator**: [Network performance optimization](services/aws_global_accelerator.md) for global applications.
