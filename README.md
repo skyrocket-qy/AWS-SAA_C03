@@ -84,7 +84,7 @@
 
 ## Management and Governance
 - **AWS Auto Scaling**: Automatically adjusts application capacity to maintain performance and costs.
-- **AWS CloudFormation**: Provision and manage AWS and third-party resources as code.
+- **AWS CloudFormation**: [Infrastructure as Code (IaC)](services/aws_cloudformation.md). Provision and manage resources via templates.
 - **AWS CloudTrail**: Governance, compliance, and auditing for your AWS account.
 - **Amazon CloudWatch**: Monitor AWS resources and applications running on AWS.
 - **AWS Command Line Interface (AWS CLI)**: Manage AWS services from your command line.
