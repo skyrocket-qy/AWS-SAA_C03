@@ -117,10 +117,12 @@
 
 ## Networking and Content Delivery
 - **Elastic Network Interface (ENI)**: [Virtual network card](services/aws_eni.md) for your instances.
+- **Egress-only Internet Gateway**: [IPv6 outbound access](services/aws_egress_only_internet_gateway.md) for private subnets.
 - **Amazon CloudFront**: Fast, secure content delivery network (CDN).
 - **AWS Direct Connect**: Establish dedicated private network connection between your premises and AWS.
 - **Elastic Load Balancing (ELB)**: Distributes incoming application traffic across multiple targets.
 - **AWS Global Accelerator**: [Network performance optimization](services/aws_global_accelerator.md) for global applications.
+- **Internet Gateway (IGW)**: [Connect to the internet](services/aws_internet_gateway.md).
 - **AWS PrivateLink**: Private connectivity between VPCs, services, and on-premises applications.
 - **Amazon Route 53**: Highly available and scalable cloud DNS web service.
 - **AWS Transit Gateway**: [Network hub](services/aws_transit_gateway.md) to connect VPCs and on-premises networks.
@@ -129,7 +131,8 @@
 - **NAT Gateway**: Enables instances in a private subnet to connect to the internet.
 - **Amazon NAT Instance**: [EC2 instance](services/aws_nat_instance.md) configured to forward traffic from private subnet to internet.
 - **Amazon VPC Peering**: [Connect two VPCs](services/aws_vpc_peering.md) to route traffic between them privately.
-- **AWS VPC Endpoints**: [Connect privately](services/aws_vpc_endpoints.md) to supported AWS services without internet gateway.
+- **AWS VPC Endpoints**: [Connect](services/aws_vpc_endpoints.md) supported AWS services without internet.
+- **Shared VPC**: [Share subnets](services/aws_vpc_sharing.md) with other accounts in your organization.
 
 ## Security, Identity, and Compliance
 - **AWS Artifact**: Central resource for compliance-related information and agreements.
