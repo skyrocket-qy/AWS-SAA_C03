@@ -5,13 +5,13 @@
 - **AWS Data Exchange**: Discover, subscribe to, and use third-party data.
 - **AWS Data Pipeline**: Orchestration service for data movement and transformation workflows.
 - **Amazon EMR (Elastic MapReduce)**: Managed big data processing using open-source tools.
-- **AWS Glue**: Serverless data integration for ETL workloads.
-- **Amazon Kinesis**: Real-time streaming data ingestion and processing.
+- **AWS Glue**: [Serverless ETL](services/aws_glue.md) and Data Catalog.
+- **Amazon Kinesis**: [Real-time data streaming](services/aws_kinesis.md) (Streams, Firehose).
 - **AWS Lake Formation**: Securely build, manage, and scale data lakes.
 - **Amazon Managed Streaming for Apache Kafka (Amazon MSK)**: Fully managed, highly available Apache Kafka clusters.
 - **Amazon OpenSearch Service (Amazon Elasticsearch Service)**: Deploy, operate, and scale OpenSearch/Elasticsearch clusters.
 - **Amazon QuickSight**: Cloud-native business intelligence service for interactive dashboards.
-- **Amazon Redshift**: Fast, fully managed, petabyte-scale cloud data warehouse.
+- **Amazon Redshift**: [Petabyte-scale data warehouse](services/aws_redshift.md).
 
 ## Application Integration
 - **Amazon AppFlow**: Integrate SaaS applications and AWS services seamlessly.
@@ -32,6 +32,7 @@
 - **AWS Batch**: Run batch computing workloads effectively.
 - **Amazon EC2 (Elastic Compute Cloud)**: Resizable compute capacity as virtual servers.
 - **Amazon EC2 Auto Scaling**: Automatically adjusts EC2 capacity to maintain performance.
+- **Amazon EC2 Placement Groups**: [Control instance placement](services/aws_ec2_placement_groups.md) (Cluster, Spread, Partition).
 - **AWS Elastic Beanstalk**: Easy deployment and scaling of web applications.
 - **AWS Outposts**: Extend AWS infrastructure, services, and operations on-premises.
 - **AWS Serverless Application Repository**: Discover, deploy, and publish serverless applications.
@@ -121,7 +122,7 @@
 - **Egress-only Internet Gateway**: [IPv6 outbound access](services/aws_egress_only_internet_gateway.md) for private subnets.
 - **Amazon CloudFront**: [Fast, secure content delivery network (CDN)](services/aws_cloudfront.md).
 - **AWS Direct Connect**: Establish dedicated private network connection between your premises and AWS.
-- **Elastic Load Balancing (ELB)**: Distributes incoming application traffic across multiple targets.
+- **Elastic Load Balancing (ELB)**: [Distributes incoming traffic](services/aws_elb.md) across multiple targets (ALB, NLB, GWLB).
 - **AWS Global Accelerator**: [Network performance optimization](services/aws_global_accelerator.md) for global applications.
 - **Internet Gateway (IGW)**: [Connect to the internet](services/aws_internet_gateway.md).
 - **AWS PrivateLink**: Private connectivity between VPCs, services, and on-premises applications.
@@ -166,10 +167,10 @@
 
 ## Storage
 - **AWS Backup**: Centralized backup service.
-- **Amazon Elastic Block Store (Amazon EBS)**: High-performance block storage.
+- **Amazon Elastic Block Store (EBS)**: [Block storage](services/aws_ebs.md) volumes for EC2 instances.
 - **Amazon Elastic File System (Amazon EFS)**: Scalable NFS.
 - **Amazon FSx**: Fully managed third-party file systems on AWS.
-- **Amazon S3**: Scalable object storage.
+- **Amazon S3**: [Scalable object storage](services/aws_s3.md) and data retrieval.
 - **Amazon S3 Glacier**: Secure, durable, and extremely low-cost storage.
 - **AWS Storage Gateway**: Hybrid cloud storage.
 

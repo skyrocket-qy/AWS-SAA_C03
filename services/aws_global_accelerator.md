@@ -32,3 +32,14 @@ AWS Global Accelerator is a networking service that improves the availability an
 *   **Availability**: Continuous health monitoring of application endpoints and instant failover to healthy endpoints (within seconds) without DNS caching issues.
 *   **Ease of Management**: Static IP addresses mean you don't have to update client-side DNS records or firewall allow-lists when you move endpoints or scale.
 *   **Security**: By exposing only the Global Accelerator static IPs, you can keep your backend resources (endpoints) private or protected by security groups that only allow traffic from Global Accelerator.
+
+## Comparison with Amazon CloudFront
+
+| Feature | Amazon CloudFront | AWS Global Accelerator |
+| :--- | :--- | :--- |
+| **Primary Goal** | **Cache content** at Edge Locations (Content Delivery). | **Optimize network path** over AWS global network (Performance/Availability). |
+| **Protocol Support** | **HTTP/HTTPS** (Layer 7). | **TCP/UDP** (Layer 4) and HTTP/HTTPS. |
+| **Caching** | **Yes** (Static and Dynamic content). | **No** (Traffic is proxied to origin). |
+| **IP Addresses** | **Dynamic** (Resolved via DNS to Edge Location IP). | **2 Static Anycast IPs** (Fixed entry points). |
+| **Ideal For** | Website content, videos, APIs, static assets. | Gaming (UDP), IoT (MQTT), VoIP, non-HTTP apps, or requiring fixed IPs. |
+| **WAF Support** | **Yes** | **Yes** (Indirectly, if endpoint is ALB). |
