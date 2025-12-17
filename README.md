@@ -116,6 +116,7 @@
 - **AWS Transfer Family**: Fully managed support for SFTP, FTPS, and FTP.
 
 ## Networking and Content Delivery
+- **Elastic Network Interface (ENI)**: [Virtual network card](services/aws_eni.md) for your instances.
 - **Amazon CloudFront**: Fast, secure content delivery network (CDN).
 - **AWS Direct Connect**: Establish dedicated private network connection between your premises and AWS.
 - **Elastic Load Balancing (ELB)**: Distributes incoming application traffic across multiple targets.
@@ -123,7 +124,7 @@
 - **AWS PrivateLink**: Private connectivity between VPCs, services, and on-premises applications.
 - **Amazon Route 53**: Highly available and scalable cloud DNS web service.
 - **AWS Transit Gateway**: [Network hub](services/aws_transit_gateway.md) to connect VPCs and on-premises networks.
-- **Amazon VPC (Virtual Private Cloud)**: Isolate your resources in a logically isolated section(region based).
+- **Amazon VPC (Virtual Private Cloud)**: [Isolate your resources](services/aws_vpc.md) in a logically isolated section(region based).
 - **AWS VPN**: Establish secure and private encrypted connections to your AWS network.
 - **NAT Gateway**: Enables instances in a private subnet to connect to the internet.
 - **Amazon NAT Instance**: [EC2 instance](services/aws_nat_instance.md) configured to forward traffic from private subnet to internet.
