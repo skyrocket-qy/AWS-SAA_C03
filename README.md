@@ -133,6 +133,7 @@
 - **Amazon VPC Peering**: [Connect two VPCs](services/aws_vpc_peering.md) to route traffic between them privately.
 - **AWS VPC Endpoints**: [Connect](services/aws_vpc_endpoints.md) supported AWS services without internet.
 - **Shared VPC**: [Share subnets](services/aws_vpc_sharing.md) with other accounts in your organization.
+- **VPC Flow Logs**: [Capture IP traffic](services/aws_vpc_flow_logs.md) information for network interfaces.
 
 ## Security, Identity, and Compliance
 - **AWS Artifact**: Central resource for compliance-related information and agreements.
