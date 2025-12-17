@@ -129,7 +129,7 @@
 - **Amazon VPC (Virtual Private Cloud)**: [Isolate your resources](services/aws_vpc.md) in a logically isolated section(region based).
 - **AWS VPN**: Establish secure and private encrypted connections to your AWS network.
 - **NAT Gateway**: Enables instances in a private subnet to connect to the internet.
-- **Amazon NAT Instance**: [EC2 instance](services/aws_nat_instance.md) configured to forward traffic from private subnet to internet.
+- **Amazon NAT Instance(Bastion)**: [EC2 instance](services/aws_nat_instance.md) configured to forward traffic from private subnet to internet.
 - **Amazon VPC Peering**: [Connect two VPCs](services/aws_vpc_peering.md) to route traffic between them privately.
 - **AWS VPC Endpoints**: [Connect](services/aws_vpc_endpoints.md) supported AWS services without internet.
 - **Shared VPC**: [Share subnets](services/aws_vpc_sharing.md) with other accounts in your organization.
@@ -176,3 +176,6 @@
 - [Messaging Services Comparison (SQS vs MQ vs MSK)](services/messaging_comparison.md)
 - [EKS Options Comparison (EKS vs Anywhere vs Distro)](services/eks_comparison.md)
 - [Database Services Deep Comparison](services/database_comparison.md)
+
+## Architecture Patterns
+- **Three Tier Architecture**: [Web, App, and Data tiers](services/architecture_three_tier.md) separation.
