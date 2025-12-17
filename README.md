@@ -150,7 +150,7 @@
 - **Amazon Inspector**: Automatically scans for software vulnerabilities and unintended network exposure.
 - **AWS KMS (Key Management Service)**: Create and manage encryption keys for data security.
 - **Amazon Macie**: Discover and protect sensitive data in AWS.
-- **AWS Network Firewall**: Network firewall service for your VPCs.
+- **AWS Network Firewall**: [Network firewall service](services/aws_network_firewall.md) for your VPCs.
 - **AWS Resource Access Manager (AWS RAM)**: Share AWS resources with any AWS account or within your organization.
 - **AWS Secrets Manager**: Securely store and rotate database credentials, API keys, and other secrets.
 - **AWS Security Hub**: Centralized view of security alerts and compliance status.
@@ -176,6 +176,7 @@
 - [Messaging Services Comparison (SQS vs MQ vs MSK)](services/messaging_comparison.md)
 - [EKS Options Comparison (EKS vs Anywhere vs Distro)](services/eks_comparison.md)
 - [Database Services Deep Comparison](services/database_comparison.md)
+- [Data Transfer & Migration Comparison (VPN vs DX vs Snow vs DataSync)](services/data_transfer_comparison.md)
 
 ## Architecture Patterns
 - **Three Tier Architecture**: [Web, App, and Data tiers](services/architecture_three_tier.md) separation.

@@ -44,7 +44,7 @@ You can secure your VPC instances using two main features: **Security Groups** a
 | Feature | Security Group (SG) | Network ACL (NACL) |
 | :--- | :--- | :--- |
 | **Level of Security** | Instance level. | Subnet level. |
-| **State** | **Stateful**: Return traffic is automatically allowed, regardless of any outbound rules. | **Stateless**: Return traffic must be explicitly allowed by rules. |
+| **State** | **Stateful**: Return traffic is automatically allowed. | **Stateless**: Return traffic must be explicitly allowed by rules. |
 | **Rules Support** | Supports **Allow** rules only. | Supports **Allow** and **Deny** rules. |
 | **Rule Application** | Evaluates all rules before deciding whether to allow traffic. | Processed in number order (lowest number first). |
 | **Default Rule** | Denies all inbound traffic by default. | Allows all inbound/outbound traffic by default. |
