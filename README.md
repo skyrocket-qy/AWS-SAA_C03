@@ -123,9 +123,10 @@
 - **AWS PrivateLink**: Private connectivity between VPCs, services, and on-premises applications.
 - **Amazon Route 53**: Highly available and scalable cloud DNS web service.
 - **AWS Transit Gateway**: [Network hub](services/aws_transit_gateway.md) to connect VPCs and on-premises networks.
-- **Amazon VPC (Virtual Private Cloud)**: Isolate your resources in a logically isolated section.
+- **Amazon VPC (Virtual Private Cloud)**: Isolate your resources in a logically isolated section(region based).
 - **AWS VPN**: Establish secure and private encrypted connections to your AWS network.
 - **NAT Gateway**: Enables instances in a private subnet to connect to the internet.
+- **Amazon VPC Peering**: [Connect two VPCs](services/aws_vpc_peering.md) to route traffic between them privately.
 
 ## Security, Identity, and Compliance
 - **AWS Artifact**: Central resource for compliance-related information and agreements.
