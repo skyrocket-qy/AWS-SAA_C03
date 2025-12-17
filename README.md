@@ -132,14 +132,14 @@
 - **AWS Audit Manager**: Continuously audit your AWS usage to simplify compliance.
 - **AWS Certificate Manager (ACM)**: Provision, manage, and deploy SSL/TLS certificates.
 - **AWS CloudHSM**: Hardware Security Module for cryptographic operations and key storage.
-- **Amazon Cognito**: Add user sign-up, sign-in, and access control to apps.
-- **Amazon Detective**: Analyze and visualize security data to investigate findings.
-- **AWS Directory Service**: Host and manage Microsoft Active Directory on AWS.
+- **Amazon Cognito**: User authentication and authorization service.
+- **Amazon Detective**: Analyze and visualize security data.
+- **AWS Directory Service**: AWS Managed Microsoft AD.
 - **AWS Firewall Manager**: Centrally configure and manage firewall rules across accounts.
 - **Amazon GuardDuty**: Intelligent threat detection to protect your AWS accounts.
 - **AWS IAM (Identity and Access Management)**: Securely manage access to AWS services and resources.
-- **Amazon Inspector**: Automated security assessment service for EC2 instances and containers.
-- **AWS KMS (Key Management Service)**: Create and control encryption keys for data security.
+- **Amazon Inspector**: Automatically scans for software vulnerabilities and unintended network exposure.
+- **AWS KMS (Key Management Service)**: Create and manage encryption keys for data security.
 - **Amazon Macie**: Discover and protect sensitive data in AWS.
 - **AWS Network Firewall**: Network firewall service for your VPCs.
 - **AWS Resource Access Manager (AWS RAM)**: Share AWS resources with any AWS account or within your organization.
@@ -150,18 +150,18 @@
 - **AWS WAF (Web Application Firewall)**: Protect web applications from common web exploits.
 
 ## Serverless
-- **AWS AppSync**: (See Application Integration).
-- **AWS Fargate**: Serverless compute engine for containers without managing servers.
-- **AWS Lambda**: Run your code without provisioning or managing servers.
+- **AWS AppSync**: Managed service that simplifies the development of GraphQL and Pub/Sub APIs.
+- **AWS Fargate**: Serverless compute engine for containers.
+- **AWS Lambda**: Run code without provisioning or managing servers (FAAS).
 
 ## Storage
-- **AWS Backup**: Centralized backup service across AWS services.
-- **Amazon Elastic Block Store (Amazon EBS)**: High-performance block storage for Amazon EC2 instances.
-- **Amazon Elastic File System (Amazon EFS)**: Scalable, elastic file storage for EC2 and on-premises.
+- **AWS Backup**: Centralized backup service.
+- **Amazon Elastic Block Store (Amazon EBS)**: High-performance block storage.
+- **Amazon Elastic File System (Amazon EFS)**: Scalable NFS.
 - **Amazon FSx**: Fully managed third-party file systems on AWS.
-- **Amazon S3**: Scalable object storage for internet storage needs.
-- **Amazon S3 Glacier**: Secure, durable, and extremely low-cost storage for archiving.
-- **AWS Storage Gateway**: Hybrid cloud storage integrating on-premises IT with AWS.
+- **Amazon S3**: Scalable object storage.
+- **Amazon S3 Glacier**: Secure, durable, and extremely low-cost storage.
+- **AWS Storage Gateway**: Hybrid cloud storage.
 
 ## Comparisons
 - [Messaging Services Comparison (SQS vs MQ vs MSK)](services/messaging_comparison.md)
