@@ -14,7 +14,7 @@
 - **Amazon Redshift**: [Petabyte-scale data warehouse](services/aws_redshift.md).
 
 ## Application Integration
-- **Amazon AppFlow**: Integrate SaaS applications and AWS services seamlessly.
+- **Amazon AppFlow**: [Integrate SaaS applications](services/aws_appflow.md) and AWS services seamlessly.
 - **AWS AppSync**: Build scalable, real-time applications with managed GraphQL APIs.
 - **Amazon EventBridge (Amazon CloudWatch Events)**: Serverless event bus for routing events between services.
 - **Amazon MQ**: Managed message broker for Apache ActiveMQ and RabbitMQ.
@@ -51,7 +51,7 @@
 - **Amazon Aurora**: High-performance, scalable relational database compatible with MySQL/PostgreSQL.
 - **Amazon Aurora Serverless**: On-demand, auto-scaling configuration for Amazon Aurora.
 - **Amazon DocumentDB**: Fully managed document database compatible with MongoDB.
-- **Amazon DynamoDB**: Fast, flexible NoSQL database for any scale.
+- **Amazon DynamoDB**: [Fast, flexible NoSQL database](services/aws_dynamodb.md) for any scale.
 - **Amazon ElastiCache**: In-memory caching service for Redis and Memcached.
 - **Amazon Keyspaces**: Serverless, scalable, and highly available Apache Cassandra-compatible database service.
 - **Amazon Neptune**: Fast, reliable graph database for interconnected datasets.
