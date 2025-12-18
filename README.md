@@ -83,7 +83,7 @@
 - **Amazon Translate**: Neural machine translation service for fast, high-quality translation.
 
 ## Management and Governance
-- **AWS Auto Scaling**: Automatically adjusts application capacity to maintain performance and costs.
+- **AWS Auto Scaling**: [Automatically adjusts application capacity](services/scaling_policy_comparison.md) to maintain performance and costs.
 - **AWS CloudFormation**: [Infrastructure as Code (IaC)](services/aws_cloudformation.md). Provision and manage resources via templates.
 - **AWS CloudTrail**: Governance, compliance, and auditing for your AWS account.
 - **Amazon CloudWatch**: Monitor AWS resources and applications running on AWS.
@@ -179,6 +179,7 @@
 - [EKS Options Comparison (EKS vs Anywhere vs Distro)](services/eks_comparison.md)
 - [Database Services Deep Comparison](services/database_comparison.md)
 - [Data Transfer & Migration Comparison (VPN vs DX vs Snow vs DataSync)](services/data_transfer_comparison.md)
+- [Auto Scaling Policies Comparison (Target vs Step vs Simple)](services/scaling_policy_comparison.md)
 
 ## Architecture Patterns
 - **Three Tier Architecture**: [Web, App, and Data tiers](services/architecture_three_tier.md) separation.
