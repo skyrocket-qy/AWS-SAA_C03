@@ -30,7 +30,7 @@
 
 ## Compute
 - **AWS Batch**: Run batch computing workloads effectively.
-- **Amazon EC2 (Elastic Compute Cloud)**: Resizable compute capacity as virtual servers.
+- **Amazon EC2 (Elastic Compute Cloud)**: [Resizable compute capacity](services/aws_ec2.md) as virtual servers.
 - **Amazon EC2 Auto Scaling**: Automatically adjusts EC2 capacity to maintain performance.
 - **Amazon EC2 Placement Groups**: [Control instance placement](services/aws_ec2_placement_groups.md) (Cluster, Spread, Partition).
 - **AWS Elastic Beanstalk**: Easy deployment and scaling of web applications.
