@@ -56,7 +56,7 @@
 - **Amazon Keyspaces**: Serverless, scalable, and highly available Apache Cassandra-compatible database service.
 - **Amazon Neptune**: Fast, reliable graph database for interconnected datasets.
 - **Amazon QLDB (Quantum Ledger Database)**: Fully managed, immutable, and cryptographically verifiable ledger database.
-- **Amazon RDS (Relational Database Service)**: Set up, operate, and scale a relational database.
+- **Amazon RDS (Relational Database Service)**: [Set up, operate, and scale](services/aws_rds.md) a relational database (RDS Proxy).
 - **Amazon Timestream**: Fast, scalable, and serverless time series database.
 
 ## Developer Tools
@@ -95,7 +95,7 @@
 - **Amazon Managed Grafana**: Fully managed service for open-source Grafana.
 - **Amazon Managed Service for Prometheus**: Monitor containerized applications at scale.
 - **AWS Management Console**: Web-based interface for managing all AWS services.
-- **AWS Organizations**: Centrally manage and govern your environment as you grow.
+- **AWS Organizations**: [Centrally manage and govern](services/aws_organizations.md) your environment as you grow (SCPs).
 - **AWS Personal Health Dashboard**: Personalized view of AWS service health and alerts.
 - **AWS Proton**: Fully managed service for automated deployments for container and serverless.
 - **AWS Service Catalog**: Create and manage catalogs of IT services approved for use.
