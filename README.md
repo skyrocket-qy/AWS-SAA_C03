@@ -98,6 +98,7 @@
 - **AWS Organizations**: [Centrally manage and govern](services/aws_organizations.md) your environment as you grow (SCPs).
 - **AWS Personal Health Dashboard**: Personalized view of AWS service health and alerts.
 - **AWS Proton**: Fully managed service for automated deployments for container and serverless.
+- **AWS Resource Groups & Tag Editor**: [Organize resources and manage tags](services/aws_resource_groups_tag_editor.md).
 - **AWS Service Catalog**: Create and manage catalogs of IT services approved for use.
 - **AWS Systems Manager**: Gain operational insights and automate management across AWS resources.
 - **AWS Trusted Advisor**: Optimize performance, security, and cost of your AWS environment.
@@ -126,7 +127,7 @@
 - **AWS Global Accelerator**: [Network performance optimization](services/aws_global_accelerator.md) for global applications.
 - **Internet Gateway (IGW)**: [Connect to the internet](services/aws_internet_gateway.md).
 - **AWS PrivateLink**: Private connectivity between VPCs, services, and on-premises applications.
-- **Amazon Route 53**: Highly available and scalable cloud DNS web service.
+- **Amazon Route 53**: [Highly available and scalable cloud DNS](services/aws_route53.md) web service (Routing Policies).
 - **AWS Transit Gateway**: [Network hub](services/aws_transit_gateway.md) to connect VPCs and on-premises networks.
 - **Amazon VPC (Virtual Private Cloud)**: [Isolate your resources](services/aws_vpc.md) in a logically isolated section(region based).
 - **AWS VPN**: Establish secure and private encrypted connections to your AWS network.
