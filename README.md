@@ -7,7 +7,7 @@
 - **Amazon EMR (Elastic MapReduce)**: Managed big data processing using open-source tools.
 - **AWS Glue**: [Serverless ETL](services/aws_glue.md) and Data Catalog.
 - **Amazon Kinesis**: [Real-time data streaming](services/aws_kinesis.md) (Streams, Firehose).
-- **AWS Lake Formation**: Securely build, manage, and scale data lakes.
+- **AWS Lake Formation**: [Securely build, manage, and scale](services/aws_lake_formation.md) data lakes.
 - **Amazon Managed Streaming for Apache Kafka (Amazon MSK)**: Fully managed, highly available Apache Kafka clusters.
 - **Amazon OpenSearch Service (Amazon Elasticsearch Service)**: Deploy, operate, and scale OpenSearch/Elasticsearch clusters.
 - **Amazon QuickSight**: Cloud-native business intelligence service for interactive dashboards.
@@ -90,7 +90,7 @@
 - **AWS Command Line Interface (AWS CLI)**: Manage AWS services from your command line.
 - **AWS Compute Optimizer**: Recommends optimal AWS resources using machine learning.
 - **AWS Config**: Assess, audit, and evaluate the configurations of your AWS resources.
-- **AWS Control Tower**: Set up and govern a secure, multi-account AWS environment.
+- **AWS Control Tower**: [Set up and govern a secure, multi-account](services/aws_control_tower.md) AWS environment.
 - **AWS License Manager**: Manage software licenses from vendors like Microsoft and Oracle.
 - **Amazon Managed Grafana**: Fully managed service for open-source Grafana.
 - **Amazon Managed Service for Prometheus**: Monitor containerized applications at scale.
@@ -169,7 +169,7 @@
 - **AWS Backup**: Centralized backup service.
 - **Amazon Elastic Block Store (EBS)**: [Block storage](services/aws_ebs.md) volumes for EC2 instances.
 - **Amazon Elastic File System (Amazon EFS)**: Scalable NFS.
-- **Amazon FSx**: Fully managed third-party file systems on AWS.
+- **Amazon FSx**: [Fully managed third-party file systems](services/aws_fsx.md) on AWS (Lustre, Windows, NetApp ONTAP, OpenZFS).
 - **Amazon S3**: [Scalable object storage](services/aws_s3.md) and data retrieval.
 - **Amazon S3 Glacier**: Secure, durable, and extremely low-cost storage.
 - **AWS Storage Gateway**: Hybrid cloud storage.

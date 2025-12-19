@@ -19,7 +19,13 @@
     - High Performance Computing (HPC).
     - **NOT** for critical jobs or databases.
 - **Strategies**:
-    - **Spot Fleet**: Diversify across multiple instance types and Availability Zones to reduce interruption risk.
+    - **Spot Fleet**: A set of Spot Instances (and optionally On-Demand) that meets your target capacity. Helps diversify across instance types and AZs to reduce interruption risk.
+        - **Allocation Strategies**:
+            - `lowestPrice`: Launches instances from the pools with the lowest price (higher interruption risk).
+            - `diversified`: Distributes instances across all Spot pools (balanced interruption risk).
+            - `capacityOptimized`: Launches from pools with optimal capacity (lowest interruption risk).
+            - `priceCapacityOptimized`: (Default for most use cases) Balances price and capacity availability.
+        - **Request Types**: `request` (one-time) vs. `maintain` (keeps target capacity over time).
     - **Spot Block**: (Deprecated in some regions) Reserve for a specific duration (1-6 hours).
 
 ### 3. Reserved Instances (RI)

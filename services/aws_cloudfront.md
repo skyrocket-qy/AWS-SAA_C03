@@ -13,7 +13,16 @@ Amazon CloudFront is a fast content delivery network (CDN) service that securely
 The source of the content CloudFront delivers.
 
 *   **S3 Bucket**: Best for static content (images, CSS, JS).
-    *   **Security (S3 Origin Access)**: To ensure users access content *only* through CloudFront (and not directly via S3 URL), use **Origin Access Control (OAC)** (Recommended/New) or **Origin Access Identity (OAI)** (Legacy).
+    *   **Restricting S3 Access**: To ensure users access content *only* through CloudFront (not directly via S3 URL):
+        *   **Origin Access Control (OAC)** *(Recommended/New)*:
+            - Supports all S3 buckets in all AWS Regions.
+            - Supports S3 **server-side encryption with KMS (SSE-KMS)**.
+            - Supports dynamic requests (PUT/DELETE) to S3.
+        *   **Origin Access Identity (OAI)** *(Legacy)*:
+            - A special CloudFront identity that you associate with your distribution.
+            - S3 bucket policy grants access only to this OAI.
+            - Does **NOT** support SSE-KMS or dynamic requests.
+            - Being replaced by OAC.
 *   **Custom Origin**: Application Load Balancer (ALB), EC2 instance, or an on-premises server (publicly accessible).
 
 ## Key Features
