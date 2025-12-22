@@ -25,7 +25,7 @@
 ## AWS Cost Management
 - **AWS Budgets**: Set custom cost and usage alerts.
 - **AWS Cost and Usage Report**: Comprehensive dataset of AWS costs and usage.
-- **AWS Cost Explorer**: Visualize, understand, and manage AWS costs and usage.
+- **AWS Cost Explorer**: [Visualize, understand, and manage](services/aws_cost_explorer.md) AWS costs and usage.
 - **Savings Plans**: Flexible pricing model offering significant savings on usage.
 
 ## Compute
@@ -48,7 +48,7 @@
 - **Amazon EKS Distro**: Kubernetes distribution used by Amazon EKS to run anywhere.
 
 ## Database
-- **Amazon Aurora**: High-performance, scalable relational database compatible with MySQL/PostgreSQL.
+- **Amazon Aurora**: [High-performance, scalable relational database](services/aws_aurora.md) compatible with MySQL/PostgreSQL (Global Database).
 - **Amazon Aurora Serverless**: On-demand, auto-scaling configuration for Amazon Aurora.
 - **Amazon DocumentDB**: Fully managed document database compatible with MongoDB.
 - **Amazon DynamoDB**: [Fast, flexible NoSQL database](services/aws_dynamodb.md) for any scale.
@@ -146,7 +146,7 @@
 - **AWS CloudHSM**: Hardware Security Module for cryptographic operations and key storage.
 - **Amazon Cognito**: User authentication and authorization service.
 - **Amazon Detective**: Analyze and visualize security data.
-- **AWS Directory Service**: AWS Managed Microsoft AD.
+- **AWS Directory Service**: [AWS Managed Microsoft AD](services/aws_directory_service.md), AD Connector, Simple AD.
 - **AWS Firewall Manager**: Centrally configure and manage firewall rules across accounts.
 - **Amazon GuardDuty**: Intelligent threat detection to protect your AWS accounts.
 - **AWS IAM (Identity and Access Management)**: Securely manage access to AWS services and resources.
@@ -173,7 +173,7 @@
 - **Amazon FSx**: [Fully managed third-party file systems](services/aws_fsx.md) on AWS (Lustre, Windows, NetApp ONTAP, OpenZFS).
 - **Amazon S3**: [Scalable object storage](services/aws_s3.md) and data retrieval.
 - **Amazon S3 Glacier**: Secure, durable, and extremely low-cost storage.
-- **AWS Storage Gateway**: Hybrid cloud storage.
+- **AWS Storage Gateway**: [Hybrid cloud storage](services/aws_storage_gateway.md) (File, Volume, Tape).
 
 ## Comparisons
 - [Messaging Services Comparison (SQS vs MQ vs MSK)](services/messaging_comparison.md)

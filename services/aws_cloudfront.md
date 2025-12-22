@@ -30,7 +30,45 @@ The source of the content CloudFront delivers.
 *   **HTTPS Support**: Supports custom SSL/TLS certificates (via ACM) and SNI.
 *   **Geo-Restriction**: You can allow or block users from specific countries.
 *   **Signed URLs / Signed Cookies**: Restrict access to premium content (e.g., paid video streaming).
-*   **Edge Computing**:
-    *   **CloudFront Functions**: Lightweight JS functions for high-scale, latency-sensitive manipulations (e.g., header manipulation).
-    *   **Lambda@Edge**: More powerful computing at the edge (e.g., complex logic, external calls).
 *   **Security Integration**: Integrates with **AWS WAF** (Web Application Firewall) to block attacks and **AWS Shield** for DDoS protection.
+
+## Edge Computing
+
+### CloudFront Functions
+- **Lightweight JavaScript** functions for high-scale, latency-sensitive operations.
+- Runs at **Edge Locations** (closer to users).
+- Use Case: Simple header manipulation, URL rewrites, cache key normalization.
+- Sub-millisecond startup, millions of requests/second.
+
+### Lambda@Edge
+- **Full Lambda functions** (Node.js or Python) running at Regional Edge Caches.
+- More powerful than CloudFront Functions (can make network calls, access request body).
+- **Trigger Points**:
+    - **Viewer Request**: After CloudFront receives a request from a viewer.
+    - **Origin Request**: Before CloudFront forwards the request to the origin.
+    - **Origin Response**: After CloudFront receives the response from the origin.
+    - **Viewer Response**: Before CloudFront returns the response to the viewer.
+
+#### Common Use Cases
+- **User-Agent Header**: Inspect the `User-Agent` header to serve different content based on device type (mobile vs. desktop).
+- **A/B Testing**: Route users to different origin versions.
+- **Authentication/Authorization**: Validate tokens at the edge before reaching the origin.
+- **Dynamic Content Generation**: Generate personalized responses at the edge.
+- **SEO**: Serve pre-rendered pages to bots.
+
+### CloudFront Functions vs Lambda@Edge
+
+| Feature | CloudFront Functions | Lambda@Edge |
+| :--- | :--- | :--- |
+| **Language** | JavaScript only | Node.js, Python |
+| **Execution Location** | Edge Locations | Regional Edge Caches |
+| **Triggers** | Viewer Request/Response only | All 4 triggers |
+| **Network Access** | No | Yes |
+| **Request Body Access** | No | Yes (Origin triggers) |
+| **Max Execution Time** | < 1 ms | 5 sec (Viewer) / 30 sec (Origin) |
+| **Scale** | Millions of requests/sec | Thousands of requests/sec |
+
+## Exam Tips
+- Use **Lambda@Edge** to inspect/modify `User-Agent` or other headers for device-specific content.
+- Use **CloudFront Functions** for simple, high-volume tasks (header manipulation, redirects).
+- Lambda@Edge functions must be deployed in **us-east-1** (N. Virginia).
