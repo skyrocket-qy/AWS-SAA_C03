@@ -26,10 +26,10 @@
 - **AWS Budgets**: Set custom cost and usage alerts.
 - **AWS Cost and Usage Report**: Comprehensive dataset of AWS costs and usage.
 - **AWS Cost Explorer**: [Visualize, understand, and manage](services/aws_cost_explorer.md) AWS costs and usage.
-- **Savings Plans**: Flexible pricing model offering significant savings on usage.
+- **Savings Plans**: [Flexible pricing model](services/aws_savings_plans.md) offering significant savings on usage.
 
 ## Compute
-- **AWS Batch**: Run batch computing workloads effectively.
+- **AWS Batch**: [Run batch computing workloads](services/aws_batch.md) effectively.
 - **Amazon EC2 (Elastic Compute Cloud)**: [Resizable compute capacity](services/aws_ec2.md) as virtual servers.
 - **Amazon EC2 Auto Scaling**: Automatically adjusts EC2 capacity to maintain performance.
 - **Amazon EC2 Placement Groups**: [Control instance placement](services/aws_ec2_placement_groups.md) (Cluster, Spread, Partition).
