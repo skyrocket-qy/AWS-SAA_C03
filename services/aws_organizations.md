@@ -43,6 +43,33 @@
 
 ---
 
+### Example SCP: Deny Access to Specific Regions
+This policy denies access to all AWS operations in `eu-central-1` and `sa-east-1`.
+
+```json
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "DenyEuCentral1AndSaEast1",
+      "Effect": "Deny",
+      "Action": "*",
+      "Resource": "*",
+      "Condition": {
+        "StringEquals": {
+          "aws:RequestedRegion": [
+            "eu-central-1",
+            "sa-east-1"
+          ]
+        }
+      }
+    }
+  ]
+}
+```
+
+---
+
 ## Exam Tips
 - **SCPs do NOT apply to the Management Account**.
 - SCPs affect **all users and roles**, including **root**.
