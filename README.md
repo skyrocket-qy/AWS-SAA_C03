@@ -109,7 +109,7 @@
 - **Amazon Kinesis Video Streams**: Securely ingest, store, and process video streams for analytics.
 
 ## Migration and Transfer
-- **AWS Application Discovery Service**: Discover on-premises application components for migration planning.
+- **AWS Application Discovery Service**: [Plan migration projects](services/aws_application_discovery_service.md) by gathering on-premises data.
 - **AWS Application Migration Service**: Automated lift-and-shift migration to AWS.
 - **AWS Database Migration Service (AWS DMS)**: Migrate databases to AWS quickly and securely.
 - **AWS DataSync**: Online data transfer service for moving large amounts of data.
@@ -121,7 +121,6 @@
 ## Networking and Content Delivery
 - **Elastic Network Interface (ENI)**: [Virtual network card](services/aws_eni.md) for your instances.
 - **Egress-only Internet Gateway**: [IPv6 outbound access](services/aws_egress_only_internet_gateway.md) for private subnets.
-- **Amazon CloudFront**: [Fast, secure content delivery network (CDN)](services/aws_cloudfront.md).
 - **AWS Direct Connect**: Establish dedicated private network connection between your premises and AWS.
 - **Elastic Load Balancing (ELB)**: [Distributes incoming traffic](services/aws_elb.md) across multiple targets (ALB, NLB, GWLB).
 - **AWS Global Accelerator**: [Network performance optimization](services/aws_global_accelerator.md) for global applications.
