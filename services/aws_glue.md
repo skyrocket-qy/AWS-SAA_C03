@@ -27,3 +27,27 @@ AWS Glue is a serverless data integration service that makes it easy to discover
 2.  **Glue Crawler** scans S3, infers schema, and creates table in **Data Catalog**.
 3.  **Athena** uses Data Catalog to run SQL queries on S3 data immediately.
 4.  **Glue ETL Job** converts CSV to Parquet and loads it into **Redshift** for high-performance warehousing.
+
+## Job Bookmarks
+
+**Job Bookmarks** help Glue maintain state information and prevent the reprocessing of old data.
+
+### How It Works
+- Glue tracks which data has already been processed during a previous run of an ETL job.
+- On subsequent runs, Glue processes **only new data** since the last checkpoint.
+- Stores checkpoint information such as file timestamps (S3) or primary keys (JDBC sources).
+
+### Use Cases
+- **Incremental data processing**: Avoid re-reading entire datasets on every job run.
+- **Cost optimization**: Reduce processing time and cost by only processing new/changed data.
+
+### Configuration Options
+- **Enable**: Process only new data since the last run.
+- **Disable**: Reprocess all data every time.
+- **Pause**: Keep bookmark state but temporarily reprocess all data.
+
+## Exam Tips
+- **Job Bookmarks** = Process only **new data** (incremental ETL), avoid reprocessing.
+- **Data Catalog** = Central **metadata** repository (Hive-compatible metastore).
+- **Crawlers** = Automatically infer **schema** and populate Data Catalog.
+- Glue is **serverless** (no infrastructure to manage).
