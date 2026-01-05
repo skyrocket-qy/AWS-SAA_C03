@@ -2,8 +2,8 @@
 
 ## Analytics
 - **Amazon Athena**: Serverless interactive query service for S3 data.
-- **AWS Data Exchange**: Discover, subscribe to, and use third-party data.
-- **AWS Data Pipeline**: Orchestration service for data movement and transformation workflows.
+- **AWS Data Exchange**: [Discover, subscribe to, and use](services/aws_data_exchange.md) third-party data.
+- **AWS Data Pipeline**: [Orchestration service](services/aws_data_pipeline.md) for data movement and transformation workflows.
 - **Amazon EMR (Elastic MapReduce)**: Managed big data processing using open-source tools.
 - **AWS Glue**: [Serverless ETL](services/aws_glue.md) and Data Catalog.
 - **Amazon Kinesis**: [Real-time data streaming](services/aws_kinesis.md) (Streams, Firehose).
