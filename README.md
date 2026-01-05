@@ -66,8 +66,8 @@
 - **AWS Amplify**: Rapidly build, deploy, and host scalable web/mobile apps.
 - **Amazon CloudFront**: [Content Delivery Network (CDN)](services/aws_cloudfront.md) using global edge locations.
 - **Amazon API Gateway**: Create, publish, maintain, monitor, and secure APIs.
-- **AWS Device Farm**: Test Android, iOS, and web apps on real devices.
-- **Amazon Pinpoint**: Customer engagement service for targeted marketing communications.
+- **AWS Device Farm**: [Test Android, iOS, and web apps](services/aws_device_farm.md) on real devices.
+- **Amazon Pinpoint**: [Customer engagement service](services/aws_pinpoint.md) for targeted marketing communications.
 
 ## Machine Learning
 - **Amazon Comprehend**: Discover insights and relationships in text using NLP.
