@@ -23,8 +23,8 @@
 - **AWS Step Functions**: Coordinate multiple AWS services into serverless workflows.
 
 ## AWS Cost Management
-- **AWS Budgets**: Set custom cost and usage alerts.
-- **AWS Cost and Usage Report**: Comprehensive dataset of AWS costs and usage.
+- **AWS Budgets**: [Set custom cost and usage alerts](services/aws_budgets.md).
+- **AWS Cost and Usage Report**: [Comprehensive dataset](services/aws_cost_and_usage_report.md) of AWS costs and usage.
 - **AWS Cost Explorer**: [Visualize, understand, and manage](services/aws_cost_explorer.md) AWS costs and usage.
 - **Savings Plans**: [Flexible pricing model](services/aws_savings_plans.md) offering significant savings on usage.
 
