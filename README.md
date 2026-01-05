@@ -74,7 +74,7 @@
 - **Amazon Forecast**: Highly accurate time-series forecasts using machine learning.
 - **Amazon Fraud Detector**: Identify potentially fraudulent online activities using machine learning.
 - **Amazon Kendra**: Enterprise search service powered by machine learning.
-- **Amazon Lex**: Build conversational interfaces into applications using voice and text.
+- **Amazon Lex**: [Build conversational interfaces](services/aws_lex.md) into applications using voice and text.
 - **Amazon Polly**: Turn text into lifelike speech.
 - **Amazon Rekognition**: Image and video analysis for object and face detection.
 - **Amazon SageMaker**: Build, train, and deploy machine learning models quickly.
