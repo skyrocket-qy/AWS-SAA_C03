@@ -34,7 +34,7 @@
 - **Amazon EC2 Auto Scaling**: Automatically adjusts EC2 capacity to maintain performance.
 - **Amazon EC2 Placement Groups**: [Control instance placement](services/aws_ec2_placement_groups.md) (Cluster, Spread, Partition).
 - **AWS Elastic Beanstalk**: Easy deployment and scaling of web applications.
-- **AWS Outposts**: Extend AWS infrastructure, services, and operations on-premises.
+- **AWS Outposts**: [Extend AWS infrastructure](services/aws_outposts.md), services, and operations on-premises.
 - **AWS Serverless Application Repository**: Discover, deploy, and publish serverless applications.
 - **VMware Cloud on AWS**: Integrated hybrid cloud for VMware vSphere workloads.
 - **AWS Wavelength**: Deliver ultra-low latency applications to mobile devices.
