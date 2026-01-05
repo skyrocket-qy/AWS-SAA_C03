@@ -180,6 +180,7 @@
 - [Database Services Deep Comparison](services/database_comparison.md)
 - [Data Transfer & Migration Comparison (VPN vs DX vs Snow vs DataSync)](services/data_transfer_comparison.md)
 - [Auto Scaling Policies Comparison (Target vs Step vs Simple)](services/scaling_policy_comparison.md)
+- [AWS Data Exchange vs. AWS Data Pipeline](services/aws_data_exchange_vs_pipeline.md)
 
 ## Architecture Patterns
 - **Three Tier Architecture**: [Web, App, and Data tiers](services/architecture_three_tier.md) separation.
