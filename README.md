@@ -99,7 +99,7 @@
 - **AWS Personal Health Dashboard**: Personalized view of AWS service health and alerts.
 - **AWS Proton**: Fully managed service for automated deployments for container and serverless.
 - **AWS Resource Groups & Tag Editor**: [Organize resources and manage tags](services/aws_resource_groups_tag_editor.md).
-- **AWS Service Catalog**: Create and manage catalogs of IT services approved for use.
+- **AWS Service Catalog**: [Create and manage catalogs](services/aws_service_catalog.md) of IT services approved for use.
 - **AWS Systems Manager**: Gain operational insights and automate management across AWS resources.
 - **AWS Trusted Advisor**: Optimize performance, security, and cost of your AWS environment.
 - **AWS Well-Architected Tool**: Review and improve your architectures against best practices.
