@@ -60,7 +60,7 @@
 - **Amazon Timestream**: Fast, scalable, and serverless time series database.
 
 ## Developer Tools
-- **AWS X-Ray**: Debug and analyze production, distributed applications for performance insights.
+- **AWS X-Ray**: [Debug and analyze](services/aws_xray.md) production, distributed applications for performance insights.
 
 ## Front-End Web and Mobile
 - **AWS Amplify**: Rapidly build, deploy, and host scalable web/mobile apps.
