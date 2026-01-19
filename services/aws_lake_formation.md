@@ -31,3 +31,4 @@
 - Works on top of **S3** (storage) and **Glue** (catalog + ETL).
 - Key differentiator is **centralized, fine-grained permissions** (row/column level).
 - Use when you need to grant specific users access to specific columns or rows.
+- consolidate data from multiple accounts into a single account.

@@ -29,7 +29,7 @@
 
 ## FSx for NetApp ONTAP
 - Fully managed NetApp ONTAP file system.
-- Supports NFS, SMB, and iSCSI protocols.
+- Supports NFS, SMB, and iSCSI(block storage) protocols.
 - Use Case: Migrating on-premises NetApp workloads to AWS.
 
 ## FSx for OpenZFS
