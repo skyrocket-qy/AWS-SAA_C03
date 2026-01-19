@@ -5,16 +5,19 @@
 ## Gateway Types
 
 ### S3 File Gateway
-- **Protocol**: NFS, SMB
-- **Use Case**: Store files as objects in S3 with local caching.
-- **Storage**: Data stored in S3 buckets as native S3 objects.
-- **Best For**: File shares, data lakes, backups to S3.
+- **Protocol**: NFS (v3, v4.1) and SMB (v2, v3).
+- **Use Case**: Store files as objects in S3 with low-latency local caching.
+- **Storage**: Maps files 1:1 to S3 objects. Supports versioning and lifecycle policies.
+- **Authentication**: Integrates with **Active Directory (AD)** for SMB access control.
+- **Metadata**: Preserves POSIX metadata (permissions, timestamps) in S3 object metadata.
+- **Best For**: Data migration to S3, data lakes, and on-premises applications needing S3 access via standard file protocols.
 
 ### FSx File Gateway
-- **Protocol**: SMB
-- **Use Case**: Low-latency access to FSx for Windows File Server.
-- **Storage**: Data stored in FSx for Windows File Server.
-- **Best For**: Windows file shares requiring on-premises access.
+- **Protocol**: SMB (v2, v3).
+- **Use Case**: Low-latency, cached access to **Amazon FSx for Windows File Server**.
+- **Storage**: Data is managed in a remote FSx for Windows cluster.
+- **Integration**: Requires joining an **Active Directory** domain (on-premises or AWS Managed).
+- **Best For**: Optimizing access to Windows file shares from remote offices or branches.
 
 ### Volume Gateway
 - **Protocol**: iSCSI
