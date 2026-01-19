@@ -43,7 +43,36 @@ To launch instances, an ASG needs a blueprint.
     - **ELB Health Checks**: Monitoring if the application behind a Load Balancer is responsive. (Recommended if using an ALB).
 - **Cooldown Period**: A period where ASG stays at current capacity to let newly launched instances warm up and metrics stabilize before another scaling event.
 - **Instance Warmup**: The time it takes for an instance to become ready to handle traffic.
-- **Termination Policies**: Determine which instances to terminate first (e.g., OldestInstance, ClosestToNextInstanceHour, or AllocationStrategy).
+- **Termination Policies**: Determine which instances to terminate first.
+
+### Default Termination Policy Flow
+
+```mermaid
+graph TD
+    Start([Scale-In Event]) --> AZ_Count{Multiple AZs?}
+    AZ_Count -- Yes --> Select_AZ[Choose AZ with Most Instances]
+    AZ_Count -- No --> Under_LT{Unprotected Instances?}
+    
+    Select_AZ --> Protec_Check{Unprotected Instances?}
+    Protec_Check -- No --> Other_AZ[Choose AZ with Most Unprotected]
+    Protec_Check -- Yes --> Old_LT[Select Unprotected Instances with Oldest Launch Template]
+    
+    Other_AZ --> Old_LT
+    Under_LT -- Yes --> Old_LT
+    Under_LT -- No --> Stop([No Instances to Terminate])
+    
+    Old_LT --> Count_Old{Multiple Instances?}
+    Count_Old -- No --> Terminate_1[Terminate the Instance]
+    Count_Old -- Yes --> Bill_Cycle[Identify Instances Closest to Next Billing Hour]
+    
+    Bill_Cycle --> Count_Bill{Multiple Instances?}
+    Count_Bill -- No --> Terminate_2[Terminate the Instance]
+    Count_Bill -- Yes --> Random[Terminate One at Random]
+    
+    Terminate_1 --> End([Instance Terminated])
+    Terminate_2 --> End
+    Random --> End
+```
 
 ---
 
