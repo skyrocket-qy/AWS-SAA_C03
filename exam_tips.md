@@ -55,7 +55,6 @@
 # Cloudfront
 - Use **Lambda@Edge** to inspect/modify `User-Agent` or other headers for device-specific content.
 - Use **CloudFront Functions** for simple, high-volume tasks (header manipulation, redirects).
-- Lambda@Edge functions must be deployed in **us-east-1** (N. Virginia).
 
 
 ---
@@ -119,15 +118,6 @@
 # Data Exchange Vs Pipeline
 - If the question mentions **third-party**, **external**, or **marketplace**, look for **Data Exchange**.
 - If the question mentions **scheduling**, **workflow**, or **orchestrating ETL**, look for **Data Pipeline** (though modern questions may favor Glue or Step Functions).
-
-
----
-
-# Data Pipeline
-- **Legacy service**: AWS Data Pipeline is considered a legacy orchestration service; for new workloads, AWS recommends **AWS Step Functions** or **Amazon MWAA (Managed Workflows for Apache Airflow)**.
-- Ideal for **scheduled, data-centric ETL jobs** across AWS services.
-- Supports **on-premises data sources** via Task Runner installed on your servers.
-- Differentiate from **AWS Glue** (serverless ETL with schema discovery) and **Step Functions** (general-purpose workflow orchestration).
 
 
 ---
@@ -392,37 +382,3 @@
 - **Step Scaling** is preferred over Simple Scaling because it handles "flapping" better and doesn't wait for cooldowns (uses instance warm-up).
 - **Scheduled Scaling** is for "known time" events (e.g., weekly batch job).
 - **Predictive Scaling** is for "proactive" scaling based on historical data.
-
-
----
-
-
-# Services without explicit 'Exam Tips' section (Check manually if needed):
-
-- architecture_three_tier.md
-- aws_cloudformation.md
-- aws_ebs.md
-- aws_ec2_placement_groups.md
-- aws_egress_only_internet_gateway.md
-- aws_elb.md
-- aws_eni.md
-- aws_global_accelerator.md
-- aws_internet_gateway.md
-- aws_kinesis.md
-- aws_nat_instance.md
-- aws_network_firewall.md
-- aws_redshift.md
-- aws_s3.md
-- aws_s3_transfer_acceleration.md
-- aws_snow_family.md
-- aws_transit_gateway.md
-- aws_virtual_private_gateway.md
-- aws_vpc.md
-- aws_vpc_endpoints.md
-- aws_vpc_flow_logs.md
-- aws_vpc_peering.md
-- aws_vpc_sharing.md
-- data_transfer_comparison.md
-- database_comparison.md
-- eks_comparison.md
-- messaging_comparison.md
