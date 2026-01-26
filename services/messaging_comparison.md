@@ -2,8 +2,8 @@
 
 | Feature | **Amazon SQS** | **Amazon MQ** | **Amazon MSK** |
 | :--- | :--- | :--- | :--- |
-| **Type** | Queue (Decoupling) | Message Broker | Event Streaming |
-| **Best For** | Cloud-native apps, serverless | Migrating legacy apps (ActiveMQ/RabbitMQ) | Real-time analytics, high throughput |
-| consumption | pull | push(topic) | pull |
-| **Protocols** | AWS API (HTTP) | AMQP, MQTT, STOMP, OpenWire | Kafka TCP |
-| **Scaling** | Infinite, auto-scaling | Limited by instance type | Scaled by adding brokers/partitions |
+| **Primary Use**| Cloud-native decoupling | Migrating legacy brokers | Real-time event streaming |
+| **Protocols** | AWS HTTP API | AMQP, MQTT, STOMP | Kafka (TCP) |
+| **Scaling** | **Infinite/Serverless** | Limited by instance | Cluster/Broker based |
+| **Legacy App** | No | **Yes** (ActiveMQ/RabbitMQ) | No |
+| **High Throughput**| Medium/High | Low/Medium | **Ultra-High** |
