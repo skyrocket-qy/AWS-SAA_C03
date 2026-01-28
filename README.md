@@ -110,7 +110,7 @@
 
 ## Migration and Transfer
 - **AWS Application Discovery Service**: [Plan migration projects](services/aws_application_discovery_service.md) by gathering on-premises data.
-- **AWS Application Migration Service**: Automated lift-and-shift migration to AWS.
+- **AWS Application Migration Service (AWS MGN)**: [Automated lift-and-shift migration](services/aws_mgn.md) to AWS.
 - **AWS Database Migration Service (AWS DMS)**: Migrate databases to AWS quickly and securely.
 - **AWS DataSync**: Online data transfer service for moving large amounts of data.
 - **AWS Migration Hub**: Track progress of migrations across AWS solutions.

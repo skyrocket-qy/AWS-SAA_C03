@@ -10,3 +10,5 @@
 - **Transfer Family (Online)**: Managed **SFTP/FTP** entry point for S3 or EFS.
 - **S3 Transfer Acceleration**: Faster **S3 uploads** over the internet via CloudFront Edge Locations.
 - **Storage Gateway (Hybrid)**: On-premises caching and access to cloud storage.
+- **Application Migration Service (MGN)**: [Automated server migration](aws_mgn.md) (Rehost/Lift-and-Shift).
+
