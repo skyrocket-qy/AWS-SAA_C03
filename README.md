@@ -15,7 +15,7 @@
 
 ## Application Integration
 - **Amazon AppFlow**: [Integrate SaaS applications](services/aws_appflow.md) and AWS services seamlessly.
-- **AWS AppSync**: Build scalable, real-time applications with managed GraphQL APIs.
+- **AWS AppSync**: [Build scalable, real-time applications](services/aws_appsync.md) with managed GraphQL APIs.
 - **Amazon EventBridge (Amazon CloudWatch Events)**: Serverless event bus for routing events between services.
 - **Amazon MQ**: Managed message broker for Apache ActiveMQ and RabbitMQ.
 - **Amazon SNS (Simple Notification Service)**: Pub/sub messaging for microservices, distributed systems, and serverless applications.
@@ -161,7 +161,7 @@
 - **AWS WAF (Web Application Firewall)**: Protect web applications from common web exploits.
 
 ## Serverless
-- **AWS AppSync**: Managed service that simplifies the development of GraphQL and Pub/Sub APIs.
+- **AWS AppSync**: [Managed GraphQL and Pub/Sub APIs](services/aws_appsync.md).
 - **AWS Fargate**: Serverless compute engine for containers.
 - **AWS Lambda**: Run code without provisioning or managing servers (FAAS).
 
@@ -171,8 +171,13 @@
 - **Amazon Elastic File System (Amazon EFS)**: Scalable NFS.
 - **Amazon FSx**: [Fully managed third-party file systems](services/aws_fsx.md) on AWS (Lustre, Windows, NetApp ONTAP, OpenZFS).
 - **Amazon S3**: [Scalable object storage](services/aws_s3.md) and data retrieval.
-- **Amazon S3 Glacier**: Secure, durable, and extremely low-cost storage.
 - **AWS Storage Gateway**: [Hybrid cloud storage](services/aws_storage_gateway.md) (File, Volume, Tape).
+- **Amazon S3 Glacier**: Secure, durable, and extremely low-cost storage for archiving.
+
+## Business Applications
+- **Amazon WorkDocs**: [Enterprise storage and collaboration](services/aws_workdocs.md).
+- **Amazon WorkSpaces**: [Managed virtual desktops (DaaS)](services/aws_workspaces.md).
+
 
 ## Comparisons
 - [Messaging Services Comparison (SQS vs MQ vs MSK)](services/messaging_comparison.md)
@@ -182,6 +187,8 @@
 - [Auto Scaling Policies Comparison (Target vs Step vs Simple)](services/scaling_policy_comparison.md)
 - [AWS Data Exchange vs. AWS Data Pipeline](services/aws_data_exchange_vs_pipeline.md)
 - [Amazon Redshift vs. AWS Lake Formation](services/aws_redshift_vs_lake_formation.md)
+- [Amazon API Gateway vs. AWS AppSync](services/api_gateway_vs_appsync.md)
+
 
 ## Architecture Patterns
 - **Three Tier Architecture**: [Web, App, and Data tiers](services/architecture_three_tier.md) separation.
