@@ -1,3 +1,148 @@
+# AWS Solutions Architect Associate (SAA-C03) - Complete Service Reference
+
+## About This Document
+
+This comprehensive reference guide covers all AWS services relevant to the AWS Certified Solutions Architect - Associate (SAA-C03) certification exam. Each service entry includes:
+
+- **Function**: What the service does
+- **Use Case**: Common scenarios where the service is used
+- **Tips**: Key exam tips and important details to remember
+
+---
+
+## Table of Contents
+
+- [Amazon API Gateway](#amazon-api-gateway)
+- [Amazon AppFlow](#amazon-appflow)
+- [Amazon Athena](#amazon-athena)
+- [Amazon Aurora Serverless](#amazon-aurora-serverless)
+- [Amazon Aurora](#amazon-aurora)
+- [Amazon CloudFront](#amazon-cloudfront)
+- [Amazon CloudWatch](#amazon-cloudwatch)
+- [Amazon Cognito](#amazon-cognito)
+- [Amazon Comprehend](#amazon-comprehend)
+- [Amazon Detective](#amazon-detective)
+- [Amazon DocumentDB (with MongoDB compatibility)](#amazon-documentdb-with-mongodb-compatibility)
+- [Amazon DynamoDB](#amazon-dynamodb)
+- [Amazon EC2 Auto Scaling](#amazon-ec2-auto-scaling)
+- [Amazon EC2](#amazon-ec2)
+- [Amazon ECS Anywhere](#amazon-ecs-anywhere)
+- [Amazon EKS Anywhere](#amazon-eks-anywhere)
+- [Amazon EKS Distro](#amazon-eks-distro)
+- [Amazon Elastic Block Store (Amazon EBS)](#amazon-elastic-block-store-amazon-ebs)
+- [Amazon Elastic Container Registry (Amazon ECR)](#amazon-elastic-container-registry-amazon-ecr)
+- [Amazon Elastic Container Service (Amazon ECS)](#amazon-elastic-container-service-amazon-ecs)
+- [Amazon Elastic File System (Amazon EFS)](#amazon-elastic-file-system-amazon-efs)
+- [Amazon Elastic Kubernetes Service (Amazon EKS)](#amazon-elastic-kubernetes-service-amazon-eks)
+- [Amazon Elastic Transcoder](#amazon-elastic-transcoder)
+- [Amazon ElastiCache](#amazon-elasticache)
+- [Amazon EMR](#amazon-emr)
+- [Amazon EventBridge](#amazon-eventbridge)
+- [Amazon Forecast](#amazon-forecast)
+- [Amazon Fraud Detector](#amazon-fraud-detector)
+- [Amazon FSx (for all types)](#amazon-fsx-for-all-types)
+- [Amazon GuardDuty](#amazon-guardduty)
+- [Amazon Inspector](#amazon-inspector)
+- [Amazon Kendra](#amazon-kendra)
+- [Amazon Keyspaces (for Apache Cassandra)](#amazon-keyspaces-for-apache-cassandra)
+- [Amazon Kinesis Video Streams](#amazon-kinesis-video-streams)
+- [Amazon Kinesis](#amazon-kinesis)
+- [Amazon Lex](#amazon-lex)
+- [Amazon Macie](#amazon-macie)
+- [Amazon Managed Grafana](#amazon-managed-grafana)
+- [Amazon Managed Service for Prometheus](#amazon-managed-service-for-prometheus)
+- [Amazon Managed Streaming for Apache Kafka (Amazon MSK)](#amazon-managed-streaming-for-apache-kafka-amazon-msk)
+- [Amazon MQ](#amazon-mq)
+- [Amazon Neptune](#amazon-neptune)
+- [Amazon OpenSearch Service](#amazon-opensearch-service)
+- [Amazon Pinpoint](#amazon-pinpoint)
+- [Amazon Polly](#amazon-polly)
+- [Amazon Quantum Ledger Database (Amazon QLDB)](#amazon-quantum-ledger-database-amazon-qldb)
+- [Amazon QuickSight](#amazon-quicksight)
+- [Amazon RDS](#amazon-rds)
+- [Amazon Redshift](#amazon-redshift)
+- [Amazon Rekognition](#amazon-rekognition)
+- [Amazon Route 53](#amazon-route-53)
+- [Amazon S3 Glacier](#amazon-s3-glacier)
+- [Amazon S3](#amazon-s3)
+- [Amazon SageMaker](#amazon-sagemaker)
+- [Amazon Simple Notification Service (Amazon SNS)](#amazon-simple-notification-service-amazon-sns)
+- [Amazon Simple Queue Service (Amazon SQS)](#amazon-simple-queue-service-amazon-sqs)
+- [Amazon Textract](#amazon-textract)
+- [Amazon Transcribe](#amazon-transcribe)
+- [Amazon Translate](#amazon-translate)
+- [Amazon VPC](#amazon-vpc)
+- [AWS Amplify](#aws-amplify)
+- [AWS Application Discovery Service](#aws-application-discovery-service)
+- [AWS Application Migration Service](#aws-application-migration-service)
+- [AWS AppSync](#aws-appsync)
+- [AWS Artifact](#aws-artifact)
+- [AWS Audit Manager](#aws-audit-manager)
+- [AWS Auto Scaling](#aws-auto-scaling)
+- [AWS Backup](#aws-backup)
+- [AWS Batch](#aws-batch)
+- [AWS Budgets](#aws-budgets)
+- [AWS Certificate Manager (ACM)](#aws-certificate-manager-acm)
+- [AWS Client VPN](#aws-client-vpn)
+- [AWS CloudFormation](#aws-cloudformation)
+- [AWS CloudHSM](#aws-cloudhsm)
+- [AWS CloudTrail](#aws-cloudtrail)
+- [AWS Command Line Interface (AWS CLI)](#aws-command-line-interface-aws-cli)
+- [AWS Compute Optimizer](#aws-compute-optimizer)
+- [AWS Config](#aws-config)
+- [AWS Control Tower](#aws-control-tower)
+- [AWS Cost and Usage Report](#aws-cost-and-usage-report)
+- [AWS Cost Explorer](#aws-cost-explorer)
+- [AWS Data Exchange](#aws-data-exchange)
+- [AWS Data Pipeline](#aws-data-pipeline)
+- [AWS Database Migration Service (AWS DMS)](#aws-database-migration-service-aws-dms)
+- [AWS DataSync](#aws-datasync)
+- [AWS Device Farm](#aws-device-farm)
+- [AWS Direct Connect](#aws-direct-connect)
+- [AWS Directory Service](#aws-directory-service)
+- [AWS Elastic Beanstalk](#aws-elastic-beanstalk)
+- [AWS Fargate](#aws-fargate)
+- [AWS Firewall Manager](#aws-firewall-manager)
+- [AWS Global Accelerator](#aws-global-accelerator)
+- [AWS Glue](#aws-glue)
+- [AWS Health Dashboard](#aws-health-dashboard)
+- [AWS IAM Identity Center (AWS Single Sign-On)](#aws-iam-identity-center-aws-single-sign-on)
+- [AWS Identity and Access Management (IAM)](#aws-identity-and-access-management-iam)
+- [AWS Key Management Service (AWS KMS)](#aws-key-management-service-aws-kms)
+- [AWS Lake Formation](#aws-lake-formation)
+- [AWS Lambda](#aws-lambda)
+- [AWS License Manager](#aws-license-manager)
+- [AWS Management Console](#aws-management-console)
+- [AWS Migration Hub](#aws-migration-hub)
+- [AWS Network Firewall](#aws-network-firewall)
+- [AWS Organizations](#aws-organizations)
+- [AWS Outposts](#aws-outposts)
+- [AWS PrivateLink](#aws-privatelink)
+- [AWS Proton](#aws-proton)
+- [AWS Resource Access Manager (AWS RAM)](#aws-resource-access-manager-aws-ram)
+- [AWS Secrets Manager](#aws-secrets-manager)
+- [AWS Security Hub](#aws-security-hub)
+- [AWS Serverless Application Repository](#aws-serverless-application-repository)
+- [AWS Service Catalog](#aws-service-catalog)
+- [AWS Shield](#aws-shield)
+- [AWS Site-to-Site VPN](#aws-site-to-site-vpn)
+- [AWS Snow Family](#aws-snow-family)
+- [AWS Step Functions](#aws-step-functions)
+- [AWS Storage Gateway](#aws-storage-gateway)
+- [AWS Systems Manager](#aws-systems-manager)
+- [AWS Transfer Family](#aws-transfer-family)
+- [AWS Transit Gateway](#aws-transit-gateway)
+- [AWS Trusted Advisor](#aws-trusted-advisor)
+- [AWS WAF](#aws-waf)
+- [AWS Wavelength](#aws-wavelength)
+- [AWS Well-Architected Tool](#aws-well-architected-tool)
+- [AWS X-Ray](#aws-x-ray)
+- [Elastic Load Balancing (ELB)](#elastic-load-balancing-elb)
+- [Savings Plans](#savings-plans)
+- [VMware Cloud on AWS](#vmware-cloud-on-aws)
+
+---
+
 # Amazon API Gateway
 
 ### Function
@@ -12,6 +157,10 @@ Fully managed service that makes it easy for developers to create, publish, main
 - Supports RESTful APIs and WebSocket APIs.
 - Throttling, caching, and authentication (Cognito/IAM).
 - Direct integration with many AWS services.
+
+
+---
+
 # Amazon AppFlow
 
 ### Function
@@ -26,6 +175,10 @@ Fully managed integration service that enables you to securely transfer data bet
 - SaaS-to-AWS integration without code.
 - Supports AWS PrivateLink for security.
 - Trigger flows on schedule, on event, or on demand.
+
+
+---
+
 # Amazon Athena
 
 ### Function
@@ -39,6 +192,10 @@ Serverless interactive query service that makes it easy to analyze data in Amazo
 - Pay-per-query (data scanned).
 - Use columnar formats like Parquet/ORC and partition data to save costs.
 - Serverless, no infrastructure to manage.
+
+
+---
+
 # Amazon Aurora Serverless
 
 ### Function
@@ -53,6 +210,10 @@ On-demand, auto-scaling configuration for Amazon Aurora where the database will 
 - Scale by ACUs (Aurora Capacity Units).
 - Aurora Serverless v2 scales in fractions of a second.
 - Cost-effective for variable workloads.
+
+
+---
+
 # Amazon Aurora
 
 ### Function
@@ -68,6 +229,10 @@ MySQL and PostgreSQL-compatible relational database built for the cloud, that co
 - Aurora Global Database for cross-region disaster recovery.
 - Up to 15 read replicas.
 - Aurora Serverless for unpredictable workloads.
+
+
+---
+
 # Amazon CloudFront
 
 ### Function
@@ -83,6 +248,10 @@ Fast content delivery network (CDN) service that securely delivers data, videos,
 - TTL (Time to Live) and Invalidation.
 - Lambda@Edge / CloudFront Functions for logic at the edge.
 - Origins: S3, ELB, EC2, custom origins.
+
+
+---
+
 # Amazon CloudWatch
 
 ### Function
@@ -99,6 +268,10 @@ Monitoring and observability service built for DevOps engineers, developers, sit
 - Alarms (Static, Anomaly Detection).
 - Events (replaced by EventBridge).
 - Agent required for memory/disk metrics.
+
+
+---
+
 # Amazon Cognito
 
 ### Function
@@ -112,6 +285,10 @@ Service that lets you add user sign-up, sign-in, and access control to your web 
 - User Pools (Authentication/Profile).
 - Identity Pools (Authorization for AWS resources).
 - Supports social logins and SAML/OIDC.
+
+
+---
+
 # Amazon Comprehend
 
 ### Function
@@ -125,6 +302,10 @@ Natural language processing (NLP) service that uses machine learning to find ins
 ### Tips
 - Serverless NLP.
 - Supports personally identifiable information (PII) identification.
+
+
+---
+
 # Amazon Detective
 
 ### Function
@@ -135,6 +316,10 @@ Service that makes it easy to analyze, investigate, and quickly identify the roo
 
 ### Tips
 - Uses graph graphs and ML to visualize connections between security events.
+
+
+---
+
 # Amazon DocumentDB (with MongoDB compatibility)
 
 ### Function
@@ -149,6 +334,10 @@ Fast, scalable, highly available, and fully managed enterprise document database
 - Fully managed, MongoDB compatible.
 - Decoupled storage and compute.
 - Supports MongoDB 3.6, 4.0, and 5.0 APIs.
+
+
+---
+
 # Amazon DynamoDB
 
 ### Function
@@ -164,6 +353,10 @@ Key-value and document database that delivers single-digit millisecond performan
 - Global Tables for multi-region active-active replication.
 - DAX (DynamoDB Accelerator) for microsecond latency.
 - On-demand or Provisioned capacity modes.
+
+
+---
+
 # Amazon EC2 Auto Scaling
 
 ### Function
@@ -178,6 +371,10 @@ Service that helps you maintain application availability and allows you to autom
 - Target Tracking, Step Scaling, Scheduled Scaling, Predictive Scaling.
 - Balance instances across AZs.
 - Uses Launch Templates (preferred) or Launch Configurations.
+
+
+---
+
 # Amazon EC2
 
 ### Function
@@ -192,6 +389,10 @@ Web service that provides secure, resizable compute capacity in the cloud.
 - Instance Families (General Purpose, Compute Optimized, Memory Optimized, etc.).
 - Pricing: On-Demand, Spot, Reserved, Dedicated Hosts/Instances.
 - EBS-backed for persistence.
+
+
+---
+
 # Amazon ECS Anywhere
 
 ### Function
@@ -204,6 +405,10 @@ Feature of Amazon Elastic Container Service (Amazon ECS) that enables you to run
 ### Tips
 - Requires ECS Agent on-premises.
 - Consistent management interface for all containers.
+
+
+---
+
 # Amazon EKS Anywhere
 
 ### Function
@@ -215,6 +420,10 @@ Deployment option for Amazon EKS that enables you to easily create and operate K
 ### Tips
 - Open-source Kubernetes distribution.
 - Supports VMware vSphere and bare metal.
+
+
+---
+
 # Amazon EKS Distro
 
 ### Function
@@ -226,6 +435,10 @@ Distribution of the same open source Kubernetes and dependencies used by Amazon 
 ### Tips
 - Open source project from AWS.
 - Includes patches and updates from EKS.
+
+
+---
+
 # Amazon Elastic Block Store (Amazon EBS)
 
 ### Function
@@ -238,6 +451,10 @@ High-performance block storage service designed for use with Amazon Elastic Comp
 ### Tips
 - Types: gp2/gp3 (general), io1/io2 (high performance), st1 (throughput), sc1 (cold storage).
 - Snapshots are incremental and stored in S3.
+
+
+---
+
 # Amazon Elastic Container Registry (Amazon ECR)
 
 ### Function
@@ -251,6 +468,10 @@ Fully managed Docker container registry that makes it easy for developers to sto
 - Private/Public repositories.
 - Integrated with IAM for access control.
 - Image tag mutability controls.
+
+
+---
+
 # Amazon Elastic Container Service (Amazon ECS)
 
 ### Function
@@ -265,6 +486,10 @@ Highly scalable, high-performance container orchestration service that supports 
 - Launch types: Fargate (serverless) or EC2.
 - Capacity Providers for scaling.
 - Deeply integrated with AWS (IAM, VPC, CloudWatch).
+
+
+---
+
 # Amazon Elastic File System (Amazon EFS)
 
 ### Function
@@ -278,6 +503,10 @@ Simple, serverless, set-and-forget, elastic file system that lets you share file
 - NFSv4 protocol.
 - Regional availability (3+ AZs) or One Zone.
 - Serverless, grows and shrinks automatically.
+
+
+---
+
 # Amazon Elastic Kubernetes Service (Amazon EKS)
 
 ### Function
@@ -292,6 +521,10 @@ Managed service that makes it easy for you to run Kubernetes on AWS without need
 - Managed Control Plane.
 - Fargate or EC2 worker nodes.
 - Supports standard kubectl tools.
+
+
+---
+
 # Amazon Elastic Transcoder
 
 ### Function
@@ -303,6 +536,10 @@ Media transcoding in the cloud. It is designed to be a highly scalable, easy to 
 ### Tips
 - Managed transcoding.
 - Legacy service (prefer AWS Elemental MediaConvert for newer workloads).
+
+
+---
+
 # Amazon ElastiCache
 
 ### Function
@@ -316,6 +553,10 @@ Fully managed, Redis- and Memcached-compatible service that provides seamless, h
 ### Tips
 - Redis (advanced data structures, HA) vs Memcached (simple, multithreaded).
 - Improves read latency significantly.
+
+
+---
+
 # Amazon EMR
 
 ### Function
@@ -330,6 +571,10 @@ Industry-leading cloud big data platform for processing vast amounts of data usi
 - EMR uses EC2 instances (usually M or C families).
 - Use Spot Instances for workers to save costs.
 - Decouple storage (S3) from compute (EMR) using EMRFS.
+
+
+---
+
 # Amazon EventBridge
 
 ### Function
@@ -344,6 +589,10 @@ Serverless event bus that makes it easier to build event-driven applications at 
 - Successor to CloudWatch Events.
 - Supports third-party SaaS event integration.
 - Schema Registry for easier application development.
+
+
+---
+
 # Amazon Forecast
 
 ### Function
@@ -357,6 +606,10 @@ Fully managed service that uses machine learning to deliver highly accurate fore
 ### Tips
 - Uses time-series data.
 - Automatically selects the best ML algorithm for the data.
+
+
+---
+
 # Amazon Fraud Detector
 
 ### Function
@@ -369,6 +622,10 @@ Fully managed service that makes it easy to identify potentially fraudulent onli
 ### Tips
 - Uses historical data to train fraud models.
 - Integrated with AWS CloudTrail and other services.
+
+
+---
+
 # Amazon FSx (for all types)
 
 ### Function
@@ -381,6 +638,10 @@ Fully managed third-party file systems for a wide range of workloads.
 
 ### Tips
 - FSx for Windows (SMB), Lustre (HPC), NetApp ONTAP, OpenZFS.
+
+
+---
+
 # Amazon GuardDuty
 
 ### Function
@@ -393,6 +654,10 @@ Threat detection service that continuously monitors for malicious activity and u
 ### Tips
 - Uses VPC Flow Logs, CloudTrail Logs, and DNS Logs.
 - Intelligent threat detection using ML.
+
+
+---
+
 # Amazon Inspector
 
 ### Function
@@ -404,6 +669,10 @@ Automated security assessment service that helps improve the security and compli
 ### Tips
 - Automated vulnerability management.
 - Different from GuardDuty (threat detection) vs. Inspector (vulnerability scanning).
+
+
+---
+
 # Amazon Kendra
 
 ### Function
@@ -416,6 +685,10 @@ Intelligent search service powered by machine learning.
 ### Tips
 - NLP-powered enterprise search.
 - Natural language query support (e.g., 'What is the holiday policy?').
+
+
+---
+
 # Amazon Keyspaces (for Apache Cassandra)
 
 ### Function
@@ -427,6 +700,10 @@ Scalable, highly available, and managed Apache Cassandra–compatible database s
 ### Tips
 - Compatible with Cassandra Query Language (CQL).
 - Serverless capacity mode available.
+
+
+---
+
 # Amazon Kinesis Video Streams
 
 ### Function
@@ -439,6 +716,10 @@ Service that makes it easy to securely stream video from connected devices to AW
 ### Tips
 - Supports WebRTC for two-way media streaming.
 - Highly scalable ingestion for millions of devices.
+
+
+---
+
 # Amazon Kinesis
 
 ### Function
@@ -454,6 +735,10 @@ Platform for streaming data on AWS, offering powerful services to make it easy t
 - Data Firehose: Near real-time, loads data into S3/Redshift/OpenSearch/Splunk.
 - Data Analytics: SQL/Flink on streaming data.
 - Video Streams: For video recording/processing.
+
+
+---
+
 # Amazon Lex
 
 ### Function
@@ -467,6 +752,10 @@ Fully managed service for building conversational interfaces for any application
 - The technology behind Alexa.
 - Integrated with Lambda for backend logic.
 - Commonly paired with Polly and Transcribe.
+
+
+---
+
 # Amazon Macie
 
 ### Function
@@ -479,6 +768,10 @@ Fully managed data security and data privacy service that uses machine learning 
 ### Tips
 - Focuses specifically on data in S3.
 - Alerts on exposed or unencrypted sensitive data.
+
+
+---
+
 # Amazon Managed Grafana
 
 ### Function
@@ -491,6 +784,10 @@ Fully managed service for open source Grafana, a popular open source analytics p
 ### Tips
 - Managed Grafana infrastructure.
 - Deeply integrated with AWS IAM Identity Center.
+
+
+---
+
 # Amazon Managed Service for Prometheus
 
 ### Function
@@ -503,6 +800,10 @@ Prometheus-compatible monitoring service that makes it easy to monitor container
 ### Tips
 - Fully managed, scalable Prometheus.
 - Uses same query language (PromQL).
+
+
+---
+
 # Amazon Managed Streaming for Apache Kafka (Amazon MSK)
 
 ### Function
@@ -517,6 +818,10 @@ Fully managed service that makes it easy for you to build and run applications t
 - Managed Kafka infrastructure.
 - Easier to manage than self-hosted Kafka on EC2.
 - High availability across multiple AZs.
+
+
+---
+
 # Amazon MQ
 
 ### Function
@@ -529,6 +834,10 @@ Managed message broker service for Apache ActiveMQ and RabbitMQ that makes it ea
 ### Tips
 - Supports industry standards (ActiveMQ/RabbitMQ).
 - Use for legacy migrations; for new cloud-native apps, prefer SQS/SNS.
+
+
+---
+
 # Amazon Neptune
 
 ### Function
@@ -542,6 +851,10 @@ Fast, reliable, fully managed graph database service that makes it easy to build
 ### Tips
 - Supports property graphs (TinkerPop) and W3C RDF metadata.
 - Highly available with up to 15 replicas.
+
+
+---
+
 # Amazon OpenSearch Service
 
 ### Function
@@ -556,6 +869,10 @@ Successor to Amazon Elasticsearch Service; a managed service that makes it easy 
 - Includes OpenSearch Dashboards (formerly Kibana).
 - Good for full-text search and complex aggregations.
 - Managed service for high volume search.
+
+
+---
+
 # Amazon Pinpoint
 
 ### Function
@@ -569,6 +886,10 @@ AWS’s flexible and scalable outbound and inbound marketing communication servi
 ### Tips
 - Multi-channel communication (Email, SMS, Push, Voice).
 - Differentiate from SNS (simple pub/sub) and SES (bulk email).
+
+
+---
+
 # Amazon Polly
 
 ### Function
@@ -581,6 +902,10 @@ Service that turns text into lifelike speech, allowing you to create application
 ### Tips
 - Text-to-Speech (TTS).
 - Supports SSML for fine-grained control of speech (pitch, rate, etc.).
+
+
+---
+
 # Amazon Quantum Ledger Database (Amazon QLDB)
 
 ### Function
@@ -595,6 +920,10 @@ Fully managed ledger database that provides a transparent, immutable, and crypto
 - Immutable and verifiable.
 - Centralized (not decentralized like blockchain).
 - SQL-like interface (PartiQL).
+
+
+---
+
 # Amazon QuickSight
 
 ### Function
@@ -609,6 +938,10 @@ Scalable, serverless, embeddable, machine learning-powered business intelligence
 - SPICE engine (Super-fast, Parallel, In-memory Calculation Engine) for performance.
 - Per-user pricing.
 - Serverless BI.
+
+
+---
+
 # Amazon RDS
 
 ### Function
@@ -622,6 +955,10 @@ Service that makes it easy to set up, operate, and scale a relational database i
 - Multi-AZ for high availability (failover).
 - Read Replicas for read scaling (not HA).
 - RDS Proxy for Lambda connection pooling.
+
+
+---
+
 # Amazon Redshift
 
 ### Function
@@ -637,6 +974,10 @@ Fast, fully managed, petabyte-scale data warehouse that makes it simple and cost
 - Redshift Spectrum queries data directly in S3.
 - Dense Compute (SSD) for performance, Dense Storage (HDD) for volume.
 - Concurrently scale with Redshift Serverless.
+
+
+---
+
 # Amazon Rekognition
 
 ### Function
@@ -650,6 +991,10 @@ Service that makes it easy to add image and video analysis to your applications.
 ### Tips
 - Image and video ML analysis.
 - Includes Celebrity Recognition and Text-in-image detection.
+
+
+---
+
 # Amazon Route 53
 
 ### Function
@@ -663,6 +1008,10 @@ Highly available and scalable cloud Domain Name System (DNS) web service.
 ### Tips
 - Routing Policies: Simple, Weighted, Latency-based, Failover, Geolocation, Geoproximity, Multi-value Answer.
 - Alias records (pointing to AWS resources).
+
+
+---
+
 # Amazon S3 Glacier
 
 ### Function
@@ -674,6 +1023,10 @@ Extremely low-cost Amazon S3 storage classes for data archiving and long-term ba
 
 ### Tips
 - Glacier Instant Retrieval (milliseconds), Glacier Flexible Retrieval (minutes to hours), Glacier Deep Archive (12+ hours).
+
+
+---
+
 # Amazon S3
 
 ### Function
@@ -688,6 +1041,10 @@ Object storage service that offers industry-leading scalability, data availabili
 - Classes: Standard, Intelligent-Tiering, Standard-IA, One Zone-IA, Glacier (Instant/Flexible/Deep).
 - Versions, Replication, Lifecycle policies.
 - Strong Read-after-Write consistency.
+
+
+---
+
 # Amazon SageMaker
 
 ### Function
@@ -701,6 +1058,10 @@ Fully managed service that provides every developer and data scientist with the 
 ### Tips
 - Broad set of ML tools (Studio, Notebooks, Processing, Training, Hosting).
 - Supports open source frameworks (TensorFlow, PyTorch, etc.).
+
+
+---
+
 # Amazon Simple Notification Service (Amazon SNS)
 
 ### Function
@@ -715,6 +1076,10 @@ Highly available, durable, secure, fully managed pub/sub messaging service that 
 - Pub/Sub model.
 - SMS, Email, Mobile Push, HTTP/S, Lambda, SQS endpoints.
 - Topic-based filtering.
+
+
+---
+
 # Amazon Simple Queue Service (Amazon SQS)
 
 ### Function
@@ -730,6 +1095,10 @@ Fully managed message queuing service that enables you to decouple and scale mic
 - FIFO Queues (exact once, first-in-first-out).
 - Visibility Timeout (item hidden while being processed).
 - Dead Letter Queues (DLQ) for failed messages.
+
+
+---
+
 # Amazon Textract
 
 ### Function
@@ -742,6 +1111,10 @@ Machine learning service that automatically extracts text, handwriting, and data
 ### Tips
 - Goes beyond simple OCR (understands document structure/tables).
 - Highly accurate text extraction.
+
+
+---
+
 # Amazon Transcribe
 
 ### Function
@@ -755,6 +1128,10 @@ Automatic speech recognition (ASR) service that makes it easy for developers to 
 ### Tips
 - Speech-to-Text.
 - Supports multi-channel audio and speaker identification.
+
+
+---
+
 # Amazon Translate
 
 ### Function
@@ -767,6 +1144,10 @@ Neural machine translation service for fast, high-quality, and affordable langua
 ### Tips
 - Neural Machine Translation (NMT).
 - Supports many languages and automatic language detection.
+
+
+---
+
 # Amazon VPC
 
 ### Function
@@ -781,6 +1162,10 @@ Service that lets you provision a logically isolated section of the AWS Cloud wh
 - Route Tables, Internet Gateway (IGW), NAT Gateway (Public to Private traffic).
 - Security Groups (Stateful) vs. NACLs (Stateless).
 - VPC Flow Logs.
+
+
+---
+
 # AWS Amplify
 
 ### Function
@@ -794,6 +1179,10 @@ Set of tools and services that can be used together or on their own, to help fro
 ### Tips
 - Includes libraries, CLI, and hosting UI components.
 - Ideal for rapid prototyping and front-end developers.
+
+
+---
+
 # AWS Application Discovery Service
 
 ### Function
@@ -805,6 +1194,10 @@ Service that helps enterprise customers plan modernization and migration project
 ### Tips
 - Agentless (vCenter) or Agent-based (OS-level).
 - Mapping server dependencies.
+
+
+---
+
 # AWS Application Migration Service
 
 ### Function
@@ -816,6 +1209,10 @@ Primary migration service Recommended for lift-and-shift migrations to AWS.
 ### Tips
 - Formerly MGN (CloudEndure technology).
 - Continuous block-level replication.
+
+
+---
+
 # AWS AppSync
 
 ### Function
@@ -830,6 +1227,10 @@ Managed service that uses GraphQL to make it easy for applications to get exactl
 - GraphQL based.
 - Real-time subscriptions (WebSocket).
 - Works well with DynamoDB, Lambda, and OpenSearch.
+
+
+---
+
 # AWS Artifact
 
 ### Function
@@ -841,6 +1242,10 @@ Self-service portal for on-demand access to AWS’s compliance reports and selec
 
 ### Tips
 - The 'go-to' for compliance documentation.
+
+
+---
+
 # AWS Audit Manager
 
 ### Function
@@ -851,6 +1256,10 @@ Service that helps you continuously audit your AWS usage to simplify how you ass
 
 ### Tips
 - Managed service for continuous compliance monitoring.
+
+
+---
+
 # AWS Auto Scaling
 
 ### Function
@@ -863,6 +1272,10 @@ Service that monitors your applications and automatically adjusts capacity to ma
 ### Tips
 - Different from EC2 Auto Scaling (which is specific to instances).
 - Provides a unified interface for scaling multiple resources.
+
+
+---
+
 # AWS Backup
 
 ### Function
@@ -874,6 +1287,10 @@ Fully managed backup service that makes it easy to centralize and automate the b
 ### Tips
 - Supports cross-region and cross-account backup.
 - Policy-based management.
+
+
+---
+
 # AWS Batch
 
 ### Function
@@ -888,6 +1305,10 @@ Fully managed batch processing service that enables developers, scientists, and 
 - Serverless (using Fargate) or EC2-based.
 - Handles job dependencies and sequencing.
 - Integrated with Spot Instances for cost savings.
+
+
+---
+
 # AWS Budgets
 
 ### Function
@@ -902,6 +1323,10 @@ Service to set custom budgets to track cost and usage, providing alerts when thr
 - Proactive alerting based on actual OR forecasted costs.
 - Actions via SNS or Systems Manager.
 - Budgets is for planning; Cost Explorer is for historical analysis.
+
+
+---
+
 # AWS Certificate Manager (ACM)
 
 ### Function
@@ -913,6 +1338,10 @@ Service that makes it easy to provision, manage, and deploy public and private S
 ### Tips
 - Free for public certificates used on AWS resources.
 - Automates renewal process.
+
+
+---
+
 # AWS Client VPN
 
 ### Function
@@ -924,6 +1353,10 @@ Managed client-based VPN service that enables you to securely access your AWS re
 ### Tips
 - OpenVPN-based client.
 - Scalable and fully managed.
+
+
+---
+
 # AWS CloudFormation
 
 ### Function
@@ -939,6 +1372,10 @@ Service that gives developers and businesses an easy way to create a collection 
 - StackSets (for cross-account/region deployment).
 - Drift Detection (identify manual changes).
 - Rollback on failure.
+
+
+---
+
 # AWS CloudHSM
 
 ### Function
@@ -951,6 +1388,10 @@ Cloud-based hardware security module (HSM) that enables you to easily generate a
 ### Tips
 - Single-tenant hardware.
 - User-managed; high operational overhead compared to KMS.
+
+
+---
+
 # AWS CloudTrail
 
 ### Function
@@ -965,6 +1406,10 @@ Service that enables governance, compliance, operational auditing, and risk audi
 - Enabled by default (90 days history).
 - Management Events vs. Data Events (S3/Lambda).
 - Store logs in S3 or CloudWatch Logs for analysis.
+
+
+---
+
 # AWS Command Line Interface (AWS CLI)
 
 ### Function
@@ -977,6 +1422,10 @@ Unified tool to manage your AWS services from the terminal.
 ### Tips
 - Uses Access Key and Secret Key for authentication.
 - Standard way to interact with AWS from scripts.
+
+
+---
+
 # AWS Compute Optimizer
 
 ### Function
@@ -990,6 +1439,10 @@ Service that recommends optimal AWS resources for your workloads to reduce costs
 - Analyzes CloudWatch metrics.
 - Free to use (with some advanced options).
 - Available for EC2, EBS, Lambda, Fargate.
+
+
+---
+
 # AWS Config
 
 ### Function
@@ -1004,6 +1457,10 @@ Service that enables you to assess, audit, and evaluate the configurations of yo
 - Compliance-oriented service.
 - Used for 'Detective' guardrails.
 - Integrates with AWS Systems Manager for remediation.
+
+
+---
+
 # AWS Control Tower
 
 ### Function
@@ -1017,6 +1474,10 @@ Service that provides the easiest way to set up and govern a secure, multi-accou
 ### Tips
 - Orchestrates other services (Organizations, CloudFormation, SSO).
 - Standardizes account setup.
+
+
+---
+
 # AWS Cost and Usage Report
 
 ### Function
@@ -1031,6 +1492,10 @@ The most comprehensive set of AWS cost and usage data available, including addit
 - Most granular data available (hourly/resource ID).
 - Delivered to S3.
 - Integrates with QuickSight for visualization.
+
+
+---
+
 # AWS Cost Explorer
 
 ### Function
@@ -1045,6 +1510,10 @@ Interface that lets you visualize, understand, and manage your AWS costs and usa
 - Free to use (API calls cost $).
 - Visual reports and filtering.
 - Provides Savings Plans recommendations.
+
+
+---
+
 # AWS Data Exchange
 
 ### Function
@@ -1059,6 +1528,10 @@ Service that makes it easy to find, subscribe to, and use third-party data in th
 - Specifically for third-party data.
 - Integrates with S3 for data delivery.
 - Different from AWS Marketplace (general software).
+
+
+---
+
 # AWS Data Pipeline
 
 ### Function
@@ -1072,6 +1545,10 @@ Web service that helps you reliably process and move data between different AWS 
 - Managed workflow service.
 - Use for scheduling data moves.
 - Modern alternatives include AWS Step Functions or AWS Glue.
+
+
+---
+
 # AWS Database Migration Service (AWS DMS)
 
 ### Function
@@ -1085,6 +1562,10 @@ Service that helps you migrate databases to AWS quickly and securely.
 - Supports homogeneous and heterogeneous migrations.
 - Schema Conversion Tool (SCT) used for engine changes.
 - Can perform continuous data replication.
+
+
+---
+
 # AWS DataSync
 
 ### Function
@@ -1097,6 +1578,10 @@ Online data transfer service that simplifies, automates, and accelerates moving 
 ### Tips
 - Accelerated transfer via custom protocol.
 - Can copy between AWS services (S3-to-S3, etc.).
+
+
+---
+
 # AWS Device Farm
 
 ### Function
@@ -1109,6 +1594,10 @@ App testing service that lets you test and interact with your Android, iOS, and 
 ### Tips
 - Uses REAL devices, not simulators.
 - Test report includes screenshots and logs.
+
+
+---
+
 # AWS Direct Connect
 
 ### Function
@@ -1122,6 +1611,10 @@ Cloud service solution that makes it easy to establish a dedicated network conne
 - Physical cross-connect.
 - Dedicated (1/10/100 Gbps) or Hosted (up to 10 Gbps) connections.
 - Public/Private/Transit Virtual Interfaces (VIFs).
+
+
+---
+
 # AWS Directory Service
 
 ### Function
@@ -1133,6 +1626,10 @@ Managed service that provides several ways to use Microsoft Active Directory (AD
 
 ### Tips
 - Managed Microsoft AD, AD Connector (Proxy), Simple AD.
+
+
+---
+
 # AWS Elastic Beanstalk
 
 ### Function
@@ -1146,6 +1643,10 @@ Easy-to-use service for deploying and scaling web applications and services deve
 - PaaS (Platform as a Service).
 - Managed deployment strategies (All-at-once, Rolling, Immutable).
 - Worker tier for SQS-based background processing.
+
+
+---
+
 # AWS Fargate
 
 ### Function
@@ -1157,6 +1658,10 @@ Serverless compute engine for containers that works with both Amazon Elastic Con
 ### Tips
 - Eliminates the need to manage scaling and patching of nodes.
 - Pay only for resources used by the container.
+
+
+---
+
 # AWS Firewall Manager
 
 ### Function
@@ -1167,6 +1672,10 @@ Security management service which allows you to centrally configure and manage f
 
 ### Tips
 - Automates application of security policies across accounts.
+
+
+---
+
 # AWS Global Accelerator
 
 ### Function
@@ -1180,6 +1689,10 @@ Service that improves the availability and performance of your applications with
 - Provides Static Anycast IP addresses.
 - Uses the AWS Global Private Network.
 - Improves performance by up to 60% by avoiding internet jitters.
+
+
+---
+
 # AWS Glue
 
 ### Function
@@ -1194,6 +1707,10 @@ Serverless data integration service that makes it easy to discover, prepare, and
 - Glue Crawlers automatically infer schema.
 - Glue Data Catalog is central metadata repository.
 - Glue Job Bookmarks handle incremental data processing.
+
+
+---
+
 # AWS Health Dashboard
 
 ### Function
@@ -1205,6 +1722,10 @@ Single place to learn about the availability and operations of AWS services and 
 ### Tips
 - Service Health (general) and Resource Health (personal).
 - Provides notifications for scheduled maintenance.
+
+
+---
+
 # AWS IAM Identity Center (AWS Single Sign-On)
 
 ### Function
@@ -1216,6 +1737,10 @@ Service that helps you centrally manage SSO access to all your AWS accounts and 
 ### Tips
 - Preferred over standard IAM users for multi-account environments.
 - Integrates with external identity providers (Okta, Azure AD).
+
+
+---
+
 # AWS Identity and Access Management (IAM)
 
 ### Function
@@ -1229,6 +1754,10 @@ Service that helps you securely control access to AWS resources.
 - Users, Groups, Roles (Temporary credentials).
 - Policies (Inline vs Managed).
 - Principle of Least Privilege.
+
+
+---
+
 # AWS Key Management Service (AWS KMS)
 
 ### Function
@@ -1242,6 +1771,10 @@ Managed service that makes it easy for you to create and control the cryptograph
 - Multi-tenant but extremely secure (FIPS 140-2 Level 2).
 - Integrates with almost all AWS services.
 - Customer Managed Keys (CMK) vs. AWS Managed Keys.
+
+
+---
+
 # AWS Lake Formation
 
 ### Function
@@ -1256,6 +1789,10 @@ Service that makes it easy to set up a secure data lake in days.
 - Built on top of Glue and S3.
 - Provides a centralized dashboard for permissions.
 - Use when you need complex security on data lakes.
+
+
+---
+
 # AWS Lambda
 
 ### Function
@@ -1271,6 +1808,10 @@ Serverless compute service that lets you run code without provisioning or managi
 - Max runtime 15 mins.
 - Stateless by nature.
 - Concurrency limits and cold starts.
+
+
+---
+
 # AWS License Manager
 
 ### Function
@@ -1283,6 +1824,10 @@ Service that makes it easier to manage licenses from software vendors such as Mi
 ### Tips
 - Centralized license management.
 - Integrates with EC2 (Dedicated Hosts and standard instances).
+
+
+---
+
 # AWS Management Console
 
 ### Function
@@ -1294,6 +1839,10 @@ Web-based user interface for managing AWS resources.
 
 ### Tips
 - Easier for beginners; use CLI/Terraform for automation.
+
+
+---
+
 # AWS Migration Hub
 
 ### Function
@@ -1305,6 +1854,10 @@ Single location to track the progress of application migrations across multiple 
 ### Tips
 - Dashboard for migration status.
 - Integration with Discovery Service and MGN.
+
+
+---
+
 # AWS Network Firewall
 
 ### Function
@@ -1315,6 +1868,10 @@ Managed service that makes it easy to deploy essential network protections for a
 
 ### Tips
 - Network-level protection (as opposed to WAF which is application-level).
+
+
+---
+
 # AWS Organizations
 
 ### Function
@@ -1329,6 +1886,10 @@ Account management service that enables you to consolidate multiple AWS accounts
 - SCPs do not grant permissions; they filter them.
 - SCPs do not apply to the Management account.
 - Used for multi-account strategy.
+
+
+---
+
 # AWS Outposts
 
 ### Function
@@ -1343,6 +1904,10 @@ Fully managed service that extends AWS infrastructure, AWS services, APIs, and t
 - AWS on-premises.
 - AWS managed and supported.
 - Consistent with AWS Region APIs.
+
+
+---
+
 # AWS PrivateLink
 
 ### Function
@@ -1356,6 +1921,10 @@ Technology that provides high-availability connectivity between VPCs, AWS servic
 - Uses Interface Endpoints.
 - Keeps traffic off the public internet.
 - Commonly used for security-sensitive SaaS integrations.
+
+
+---
+
 # AWS Proton
 
 ### Function
@@ -1367,6 +1936,10 @@ Fully managed delivery service for container and serverless applications. Platfo
 ### Tips
 - Platform engineering tool.
 - Managed infrastructure templates.
+
+
+---
+
 # AWS Resource Access Manager (AWS RAM)
 
 ### Function
@@ -1377,6 +1950,10 @@ Service that helps you securely share your AWS resources across AWS accounts, wi
 
 ### Tips
 - Optimizes resource usage in multi-account strategies.
+
+
+---
+
 # AWS Secrets Manager
 
 ### Function
@@ -1389,6 +1966,10 @@ Service that helps you protect secrets needed to access your applications, servi
 ### Tips
 - Supports automatic rotation (especially for RDS).
 - Pay-per-secret pricing.
+
+
+---
+
 # AWS Security Hub
 
 ### Function
@@ -1399,6 +1980,10 @@ AWS service that provides a comprehensive view of your security state in AWS and
 
 ### Tips
 - Security 'single pane of glass'.
+
+
+---
+
 # AWS Serverless Application Repository
 
 ### Function
@@ -1411,6 +1996,10 @@ Managed repository for serverless applications. It enables teams, organizations,
 ### Tips
 - Search and deploy common serverless patterns.
 - Supports nested applications.
+
+
+---
+
 # AWS Service Catalog
 
 ### Function
@@ -1423,6 +2012,10 @@ Service that allows organizations to create and manage catalogs of IT services t
 ### Tips
 - Governance-focused.
 - Users only see and deploy what is in the catalog.
+
+
+---
+
 # AWS Shield
 
 ### Function
@@ -1434,6 +2027,10 @@ Managed Distributed Denial of Service (DDoS) protection service that safeguards 
 ### Tips
 - Shield Standard (free, basic proteção).
 - Shield Advanced (paid, specialized protection, cost protection against spikes).
+
+
+---
+
 # AWS Site-to-Site VPN
 
 ### Function
@@ -1446,6 +2043,10 @@ Service that creates a secure connection between your data center or branch offi
 - Uses Virtual Private Gateway (VGW) or Transit Gateway (TGW).
 - Uses Customer Gateway (CGW) on-premises.
 - Fast setup compared to Direct Connect.
+
+
+---
+
 # AWS Snow Family
 
 ### Function
@@ -1458,6 +2059,10 @@ Collection of physical devices and capacity-points that help move petabytes of d
 ### Tips
 - Snowcone (8TB), Snowball Edge (80TB), Snowmobile (100PB).
 - Physical shipping required.
+
+
+---
+
 # AWS Step Functions
 
 ### Function
@@ -1472,6 +2077,10 @@ Serverless function orchestrator that makes it easy to sequence AWS Lambda funct
 - Visual workflows (state machines).
 - Handles retries, timeouts, and error catching automatically.
 - Standard workflows (long-running) and Express workflows (high-volume, short-running).
+
+
+---
+
 # AWS Storage Gateway
 
 ### Function
@@ -1485,6 +2094,10 @@ Hybrid cloud storage service that gives you on-premises access to virtually unli
 ### Tips
 - Connects on-premises to AWS storage.
 - Cached vs Stored modes for Volume Gateway.
+
+
+---
+
 # AWS Systems Manager
 
 ### Function
@@ -1499,6 +2112,10 @@ AWS service that you can use to view and control your infrastructure on AWS and 
 - Formerly called SSM.
 - Requires SSM Agent on managed instances.
 - Huge toolset: Run Command, State Manager, Automation, AppConfig, etc.
+
+
+---
+
 # AWS Transfer Family
 
 ### Function
@@ -1511,6 +2128,10 @@ Fully managed support for file transfers directly into and out of Amazon S3 or A
 ### Tips
 - Fully managed SFTP/FTP/FTPS/AS2.
 - Directly uses S3 or EFS as the backend.
+
+
+---
+
 # AWS Transit Gateway
 
 ### Function
@@ -1524,6 +2145,10 @@ Service that connects VPCs and on-premises networks through a central hub.
 - Simplifies network management.
 - Supports Inter-Region Peering.
 - Central gateway for VPN and DX.
+
+
+---
+
 # AWS Trusted Advisor
 
 ### Function
@@ -1537,6 +2162,10 @@ Online tool that provides you real-time guidance to help you provision your reso
 ### Tips
 - Categories: Cost Optimization, Performance, Security, Fault Tolerance, Service Limits.
 - Core checks free; full checks with Business/Enterprise support.
+
+
+---
+
 # AWS WAF
 
 ### Function
@@ -1549,6 +2178,10 @@ Web application firewall that helps protect your web applications or APIs agains
 ### Tips
 - L7 firewall.
 - Deployed on ALB, API Gateway, CloudFront, AppSync.
+
+
+---
+
 # AWS Wavelength
 
 ### Function
@@ -1562,6 +2195,10 @@ AWS infrastructure offering optimized for mobile edge computing applications. Wa
 ### Tips
 - Keywords: 5G, mobile edge, ultra-low latency.
 - Part of Wavelength Zones.
+
+
+---
+
 # AWS Well-Architected Tool
 
 ### Function
@@ -1573,6 +2210,10 @@ Service that helps you review the state of your workloads and compares them to t
 
 ### Tips
 - 6 Pillars: Operational Excellence, Security, Reliability, Performance Efficiency, Cost Optimization, Sustainability.
+
+
+---
+
 # AWS X-Ray
 
 ### Function
@@ -1587,6 +2228,10 @@ Service that helps developers analyze and debug distributed applications, such a
 - Integrated with Lambda, API Gateway, ECS, ELB.
 - Provides end-to-end tracing.
 - Essential for microservices debugging.
+
+
+---
+
 # Elastic Load Balancing (ELB)
 
 ### Function
@@ -1602,6 +2247,10 @@ Service that automatically distributes incoming application traffic across multi
 - GWLB (Layer 3 - Third-party appliances).
 - CLB (Legacy).
 - Health Checks.
+
+
+---
+
 # Savings Plans
 
 ### Function
@@ -1615,6 +2264,10 @@ Flexible pricing model that offers low prices on AWS usage, in exchange for a co
 - Compute Savings Plans provide max flexibility (across Regions, families, and services).
 - EC2 Instance Savings Plans provide max savings for specific family/Region.
 - Commitment-based savings.
+
+
+---
+
 # VMware Cloud on AWS
 
 ### Function
@@ -1627,3 +2280,7 @@ Integrated cloud service that delivers a highly scalable, secure and innovative 
 ### Tips
 - Native VMware stack on AWS infrastructure.
 - Uses Bare Metal EC2 instances.
+
+
+---
+
