@@ -4,22 +4,22 @@
 - **Amazon Athena**: Serverless interactive query service for S3 data.
 - **AWS Data Exchange**: [Discover, subscribe to, and use](services/aws_data_exchange.md) third-party data.
 - **AWS Data Pipeline**: [Orchestration service](services/aws_data_pipeline.md) for data movement and transformation workflows.
-- **Amazon EMR (Elastic MapReduce)**: Managed big data processing using open-source tools.
+- **Amazon EMR**: Managed big data processing using open-source tools.
 - **AWS Glue**: [Serverless ETL](services/aws_glue.md) and Data Catalog.
 - **Amazon Kinesis**: [Real-time data streaming](services/aws_kinesis.md) (Streams, Firehose).
 - **AWS Lake Formation**: [Securely build, manage, and scale](services/aws_lake_formation.md) data lakes.
 - **Amazon Managed Streaming for Apache Kafka (Amazon MSK)**: Fully managed, highly available Apache Kafka clusters.
-- **Amazon OpenSearch Service (Amazon Elasticsearch Service)**: Deploy, operate, and scale OpenSearch/Elasticsearch clusters.
+- **Amazon OpenSearch Service**: Deploy, operate, and scale OpenSearch/Elasticsearch clusters.
 - **Amazon QuickSight**: Cloud-native business intelligence service for interactive dashboards.
 - **Amazon Redshift**: [Petabyte-scale data warehouse](services/aws_redshift.md).
 
 ## Application Integration
 - **Amazon AppFlow**: [Integrate SaaS applications](services/aws_appflow.md) and AWS services seamlessly.
-- **AWS AppSync**: [Build scalable, real-time applications](services/aws_appsync.md) with managed GraphQL APIs.
-- **Amazon EventBridge (Amazon CloudWatch Events)**: Serverless event bus for routing events between services.
+- **AWS AppSync**: [Managed GraphQL and Pub/Sub APIs](services/aws_appsync.md).
+- **Amazon EventBridge**: Serverless event bus for routing events between services.
 - **Amazon MQ**: Managed message broker for Apache ActiveMQ and RabbitMQ.
-- **Amazon SNS (Simple Notification Service)**: Pub/sub messaging for microservices, distributed systems, and serverless applications.
-- **Amazon SQS (Simple Queue Service)**: Fully managed message queuing for distributed systems.
+- **Amazon Simple Notification Service (Amazon SNS)**: Pub/sub messaging for microservices, distributed systems, and serverless applications.
+- **Amazon Simple Queue Service (Amazon SQS)**: Fully managed message queuing for distributed systems.
 - **AWS Step Functions**: Coordinate multiple AWS services into serverless workflows.
 
 ## AWS Cost Management
@@ -30,9 +30,8 @@
 
 ## Compute
 - **AWS Batch**: [Run batch computing workloads](services/aws_batch.md) effectively.
-- **Amazon EC2 (Elastic Compute Cloud)**: [Resizable compute capacity](services/aws_ec2.md) as virtual servers.
+- **Amazon EC2**: [Resizable compute capacity](services/aws_ec2.md) as virtual servers.
 - **Amazon EC2 Auto Scaling**: Automatically adjusts EC2 capacity to maintain performance.
-- **Amazon EC2 Placement Groups**: [Control instance placement](services/aws_ec2_placement_groups.md) (Cluster, Spread, Partition).
 - **AWS Elastic Beanstalk**: Easy deployment and scaling of web applications.
 - **AWS Outposts**: [Extend AWS infrastructure](services/aws_outposts.md), services, and operations on-premises.
 - **AWS Serverless Application Repository**: Discover, deploy, and publish serverless applications.
@@ -40,31 +39,30 @@
 - **AWS Wavelength**: [Deliver ultra-low latency applications](services/aws_wavelength.md) to mobile devices.
 
 ## Containers
-- **Amazon ECR (Elastic Container Registry)**: Fully managed Docker container registry for easy storage.
-- **Amazon ECS (Elastic Container Service)**: Highly scalable, fast container management service.
 - **Amazon ECS Anywhere**: Run Amazon ECS workloads on your infrastructure.
-- **Amazon EKS (Elastic Kubernetes Service)**: Fully managed Kubernetes service for easy deployment.
 - **Amazon EKS Anywhere**: Create and operate Kubernetes clusters on-premises.
 - **Amazon EKS Distro**: Kubernetes distribution used by Amazon EKS to run anywhere.
+- **Amazon Elastic Container Registry (Amazon ECR)**: Fully managed Docker container registry for easy storage.
+- **Amazon Elastic Container Service (Amazon ECS)**: Highly scalable, fast container management service.
+- **Amazon Elastic Kubernetes Service (Amazon EKS)**: Fully managed Kubernetes service for easy deployment.
 
 ## Database
 - **Amazon Aurora**: [High-performance, scalable relational database](services/aws_aurora.md) compatible with MySQL/PostgreSQL (Global Database).
 - **Amazon Aurora Serverless**: On-demand, auto-scaling configuration for Amazon Aurora.
-- **Amazon DocumentDB**: Fully managed document database compatible with MongoDB.
+- **Amazon DocumentDB (with MongoDB compatibility)**: Fully managed document database compatible with MongoDB.
 - **Amazon DynamoDB**: [Fast, flexible NoSQL database](services/aws_dynamodb.md) for any scale.
 - **Amazon ElastiCache**: In-memory caching service for Redis and Memcached.
-- **Amazon Keyspaces**: Serverless, scalable, and highly available Apache Cassandra-compatible database service.
+- **Amazon Keyspaces (for Apache Cassandra)**: Serverless, scalable, and highly available Apache Cassandra-compatible database service.
 - **Amazon Neptune**: Fast, reliable graph database for interconnected datasets.
-- **Amazon QLDB (Quantum Ledger Database)**: Fully managed, immutable, and cryptographically verifiable ledger database.
-- **Amazon RDS (Relational Database Service)**: [Set up, operate, and scale](services/aws_rds.md) a relational database (RDS Proxy).
-- **Amazon Timestream**: Fast, scalable, and serverless time series database.
+- **Amazon Quantum Ledger Database (Amazon QLDB)**: Fully managed, immutable, and cryptographically verifiable ledger database.
+- **Amazon RDS**: [Set up, operate, and scale](services/aws_rds.md) a relational database (RDS Proxy).
+- **Amazon Redshift**: [Petabyte-scale data warehouse](services/aws_redshift.md).
 
 ## Developer Tools
 - **AWS X-Ray**: [Debug and analyze](services/aws_xray.md) production, distributed applications for performance insights.
 
 ## Front-End Web and Mobile
 - **AWS Amplify**: Rapidly build, deploy, and host scalable web/mobile apps.
-- **Amazon CloudFront**: [Content Delivery Network (CDN)](services/aws_cloudfront.md) using global edge locations.
 - **Amazon API Gateway**: Create, publish, maintain, monitor, and secure APIs.
 - **AWS Device Farm**: [Test Android, iOS, and web apps](services/aws_device_farm.md) on real devices.
 - **Amazon Pinpoint**: [Customer engagement service](services/aws_pinpoint.md) for targeted marketing communications.
@@ -91,14 +89,13 @@
 - **AWS Compute Optimizer**: Recommends optimal AWS resources using machine learning.
 - **AWS Config**: Assess, audit, and evaluate the configurations of your AWS resources.
 - **AWS Control Tower**: [Set up and govern a secure, multi-account](services/aws_control_tower.md) AWS environment.
+- **AWS Health Dashboard**: Personalized view of AWS service health and alerts.
 - **AWS License Manager**: Manage software licenses from vendors like Microsoft and Oracle.
 - **Amazon Managed Grafana**: Fully managed service for open-source Grafana.
 - **Amazon Managed Service for Prometheus**: Monitor containerized applications at scale.
 - **AWS Management Console**: Web-based interface for managing all AWS services.
 - **AWS Organizations**: [Centrally manage and govern](services/aws_organizations.md) your environment as you grow (SCPs).
-- **AWS Personal Health Dashboard**: Personalized view of AWS service health and alerts.
 - **AWS Proton**: Fully managed service for automated deployments for container and serverless.
-- **AWS Resource Groups & Tag Editor**: [Organize resources and manage tags](services/aws_resource_groups_tag_editor.md).
 - **AWS Service Catalog**: [Create and manage catalogs](services/aws_service_catalog.md) of IT services approved for use.
 - **AWS Systems Manager**: Gain operational insights and automate management across AWS resources.
 - **AWS Trusted Advisor**: Optimize performance, security, and cost of your AWS environment.
@@ -110,33 +107,24 @@
 
 ## Migration and Transfer
 - **AWS Application Discovery Service**: [Plan migration projects](services/aws_application_discovery_service.md) by gathering on-premises data.
-- **AWS Application Migration Service (AWS MGN)**: [Automated lift-and-shift migration](services/aws_mgn.md) to AWS.
+- **AWS Application Migration Service**: [Automated lift-and-shift migration](services/aws_mgn.md) to AWS.
 - **AWS Database Migration Service (AWS DMS)**: Migrate databases to AWS quickly and securely.
 - **AWS DataSync**: Online data transfer service for moving large amounts of data.
 - **AWS Migration Hub**: Track progress of migrations across AWS solutions.
-- **AWS Server Migration Service (AWS SMS)**: Agentless server migration to AWS.
 - **AWS Snow Family**: [Offline data migration](services/aws_snow_family.md) devices (Snowcone, Snowball, Snowmobile) for edge and disconnected environments.
 - **AWS Transfer Family**: Fully managed support for SFTP, FTPS, and FTP.
 
 ## Networking and Content Delivery
-- **Elastic Network Interface (ENI)**: [Virtual network card](services/aws_eni.md) for your instances.
-- **Egress-only Internet Gateway**: [IPv6 outbound access](services/aws_egress_only_internet_gateway.md) for private subnets.
+- **AWS Client VPN**: Establish secure and private encrypted connections to your AWS network.
+- **Amazon CloudFront**: [Content Delivery Network (CDN)](services/aws_cloudfront.md) using global edge locations.
 - **AWS Direct Connect**: Establish dedicated private network connection between your premises and AWS.
 - **Elastic Load Balancing (ELB)**: [Distributes incoming traffic](services/aws_elb.md) across multiple targets (ALB, NLB, GWLB).
 - **AWS Global Accelerator**: [Network performance optimization](services/aws_global_accelerator.md) for global applications.
-- **Internet Gateway (IGW)**: [Connect to the internet](services/aws_internet_gateway.md).
 - **AWS PrivateLink**: Private connectivity between VPCs, services, and on-premises applications.
 - **Amazon Route 53**: [Highly available and scalable cloud DNS](services/aws_route53.md) web service (Routing Policies).
+- **AWS Site-to-Site VPN**: Establish secure and private encrypted connections to your AWS network.
 - **AWS Transit Gateway**: [Network hub](services/aws_transit_gateway.md) to connect VPCs and on-premises networks.
-- **Amazon VPC (Virtual Private Cloud)**: [Isolate your resources](services/aws_vpc.md) in a logically isolated section(region based).
-- **AWS VPN**: Establish secure and private encrypted connections to your AWS network.
-- **NAT Gateway**: Enables instances in a private subnet to connect to the internet.
-- **Amazon NAT Instance(Bastion)**: [EC2 instance](services/aws_nat_instance.md) configured to forward traffic from private subnet to internet.
-- **Amazon VPC Peering**: [Connect two VPCs](services/aws_vpc_peering.md) to route traffic between them privately.
-- **AWS VPC Endpoints**: [Connect](services/aws_vpc_endpoints.md) supported AWS services without internet.
-- **Shared VPC**: [Share subnets](services/aws_vpc_sharing.md) with other accounts in your organization.
-- **VPC Flow Logs**: [Capture IP traffic](services/aws_vpc_flow_logs.md) information for network interfaces.
-- **Virtual Private Gateway (VGW)**: [VPN concentrator](services/aws_virtual_private_gateway.md) on the AWS side of a Site-to-Site VPN.
+- **Amazon VPC**: [Isolate your resources](services/aws_vpc.md) in a logically isolated section(region based).
 
 ## Security, Identity, and Compliance
 - **AWS Artifact**: Central resource for compliance-related information and agreements.
@@ -148,17 +136,17 @@
 - **AWS Directory Service**: [AWS Managed Microsoft AD](services/aws_directory_service.md), AD Connector, Simple AD.
 - **AWS Firewall Manager**: Centrally configure and manage firewall rules across accounts.
 - **Amazon GuardDuty**: Intelligent threat detection to protect your AWS accounts.
-- **AWS IAM (Identity and Access Management)**: Securely manage access to AWS services and resources.
+- **AWS IAM Identity Center (AWS Single Sign-On)**: Centralized access to multiple AWS accounts and applications.
+- **AWS Identity and Access Management (IAM)**: Securely manage access to AWS services and resources.
 - **Amazon Inspector**: Automatically scans for software vulnerabilities and unintended network exposure.
-- **AWS KMS (Key Management Service)**: Create and manage encryption keys for data security.
+- **AWS Key Management Service (AWS KMS)**: Create and manage encryption keys for data security.
 - **Amazon Macie**: Discover and protect sensitive data in AWS.
 - **AWS Network Firewall**: [Network firewall service](services/aws_network_firewall.md) for your VPCs.
 - **AWS Resource Access Manager (AWS RAM)**: Share AWS resources with any AWS account or within your organization.
 - **AWS Secrets Manager**: Securely store and rotate database credentials, API keys, and other secrets.
 - **AWS Security Hub**: Centralized view of security alerts and compliance status.
 - **AWS Shield**: Managed Distributed Denial of Service (DDoS) protection service.
-- **AWS Single Sign-On (AWS IAM Identity Center)**: Centralized access to multiple AWS accounts and applications.
-- **AWS WAF (Web Application Firewall)**: Protect web applications from common web exploits.
+- **AWS WAF**: Protect web applications from common web exploits.
 
 ## Serverless
 - **AWS AppSync**: [Managed GraphQL and Pub/Sub APIs](services/aws_appsync.md).
@@ -167,28 +155,9 @@
 
 ## Storage
 - **AWS Backup**: Centralized backup service.
-- **Amazon Elastic Block Store (EBS)**: [Block storage](services/aws_ebs.md) volumes for EC2 instances.
+- **Amazon Elastic Block Store (Amazon EBS)**: [Block storage](services/aws_ebs.md) volumes for EC2 instances.
 - **Amazon Elastic File System (Amazon EFS)**: Scalable NFS.
-- **Amazon FSx**: [Fully managed third-party file systems](services/aws_fsx.md) on AWS (Lustre, Windows, NetApp ONTAP, OpenZFS).
+- **Amazon FSx (for all types)**: [Fully managed third-party file systems](services/aws_fsx.md) on AWS (Lustre, Windows, NetApp ONTAP, OpenZFS).
 - **Amazon S3**: [Scalable object storage](services/aws_s3.md) and data retrieval.
-- **AWS Storage Gateway**: [Hybrid cloud storage](services/aws_storage_gateway.md) (File, Volume, Tape).
 - **Amazon S3 Glacier**: Secure, durable, and extremely low-cost storage for archiving.
-
-## Business Applications
-- **Amazon WorkDocs**: [Enterprise storage and collaboration](services/aws_workdocs.md).
-- **Amazon WorkSpaces**: [Managed virtual desktops (DaaS)](services/aws_workspaces.md).
-
-
-## Comparisons
-- [Messaging Services Comparison (SQS vs MQ vs MSK)](services/messaging_comparison.md)
-- [EKS Options Comparison (EKS vs Anywhere vs Distro)](services/eks_comparison.md)
-- [Database Services Deep Comparison](services/database_comparison.md)
-- [Data Transfer & Migration Comparison (VPN vs DX vs Snow vs DataSync)](services/data_transfer_comparison.md)
-- [Auto Scaling Policies Comparison (Target vs Step vs Simple)](services/scaling_policy_comparison.md)
-- [AWS Data Exchange vs. AWS Data Pipeline](services/aws_data_exchange_vs_pipeline.md)
-- [Amazon Redshift vs. AWS Lake Formation](services/aws_redshift_vs_lake_formation.md)
-- [Amazon API Gateway vs. AWS AppSync](services/api_gateway_vs_appsync.md)
-
-
-## Architecture Patterns
-- **Three Tier Architecture**: [Web, App, and Data tiers](services/architecture_three_tier.md) separation.
+- **AWS Storage Gateway**: [Hybrid cloud storage](services/aws_storage_gateway.md) (File, Volume, Tape).
